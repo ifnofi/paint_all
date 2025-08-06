@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1412413982116965836
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507387386046015471}
+  - component: {fileID: 599097244365551886}
+  - component: {fileID: 5400234574919526421}
+  - component: {fileID: 9140401963552225140}
+  m_Layer: 5
+  m_Name: "\u68116-4"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1507387386046015471
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412413982116965836}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1630.8411, y: -284.4393}
+  m_SizeDelta: {x: 615.1582, y: 218.21}
+  m_Pivot: {x: 0.795386, y: 0.1022857}
+--- !u!222 &599097244365551886
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412413982116965836}
+  m_CullTransparentMesh: 1
+--- !u!114 &5400234574919526421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412413982116965836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 4d2b0779d26b2444a9af1bc11679e85c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &9140401963552225140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412413982116965836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281879a6a85c2104fbebd8db339d5b28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _images:
+  - {fileID: 5400234574919526421}
+  PlayOnStart: 1
+  _image_list:
+  - {fileID: 21300000, guid: cc08105c8d8c3fb409de2b671a324220, type: 3}
+  - {fileID: 21300000, guid: fc08aafe67577814eb3780ac74015562, type: 3}
+  - {fileID: 21300000, guid: 17cea6398cf7d194a92bbc133ddd3cdd, type: 3}
+  - {fileID: 21300000, guid: 54ce5b2efe1532543aab3b3422e67a7a, type: 3}
+  - {fileID: 21300000, guid: e7590a3b908bc1145b9a38230c3a0da5, type: 3}
+  - {fileID: 21300000, guid: 5cd28b59180058c47aeb6675c8e99ade, type: 3}
+  - {fileID: 21300000, guid: 3ee66b5b956978b449dac6ab034a6dc8, type: 3}
+  - {fileID: 21300000, guid: 4f7cbdc88e5eb2a49911b59fda7f15ae, type: 3}
+  - {fileID: 21300000, guid: 3b304ce04ba012448a279676e7cca671, type: 3}
+  - {fileID: 21300000, guid: 74c891ddd543392469a19d835f3c6387, type: 3}
+  - {fileID: 21300000, guid: ebf7f477d7038714f93b6d8ea17195e8, type: 3}
+  - {fileID: 21300000, guid: 74a436fa47a4eaf45882db0a131d790a, type: 3}
+  - {fileID: 21300000, guid: 4d2b0779d26b2444a9af1bc11679e85c, type: 3}
+  - {fileID: 21300000, guid: d02a6e4d553b54542a6815cb8155e06a, type: 3}
+  - {fileID: 21300000, guid: 47d79fdd642588f4c8689f47b9491c04, type: 3}
+  - {fileID: 21300000, guid: 071a3531244f3fd4b88130bd9b4a3a1e, type: 3}
+  - {fileID: 21300000, guid: f3b02684e21199e4cad3acbacb74c0c3, type: 3}
+  - {fileID: 21300000, guid: 5902ccd283546d44b8fd457e8f033e5e, type: 3}
+  - {fileID: 21300000, guid: a2f82d99ceffc0f4d8cb36db635d398b, type: 3}
+  - {fileID: 21300000, guid: 708d196b024fa9f4ea76c93974486180, type: 3}
+  - {fileID: 21300000, guid: aff24f8f943f03b499e706cba3c68969, type: 3}
+  - {fileID: 21300000, guid: 3d0cc664f7845974a8bbd56cd263ff14, type: 3}
+  - {fileID: 21300000, guid: 10f72d1094a0bce4a91f647597af78c8, type: 3}
+  - {fileID: 21300000, guid: 0e9dc74b943679547a2d5aad26b0772b, type: 3}
+  - {fileID: 21300000, guid: 8cf7676984ad2294cba0f8a601fa641a, type: 3}
+  - {fileID: 21300000, guid: 343cc461f28e6094b896e0fd40cc5f73, type: 3}
+  - {fileID: 21300000, guid: dacc3b965b69d5741b3ed843ec822b5e, type: 3}
+  - {fileID: 21300000, guid: 3e79a73449c44b140b97fc8f1e55bbff, type: 3}
+  - {fileID: 21300000, guid: 79be6d474474db44cafba279ebbbdc89, type: 3}
+  - {fileID: 21300000, guid: 19a200d0c44b6254d950e79b6f1608cf, type: 3}
+  - {fileID: 21300000, guid: 3c77561336d50a24a9387df86193494e, type: 3}
+  - {fileID: 21300000, guid: 0342883e503d3b44f990046a46d635a1, type: 3}
+  - {fileID: 21300000, guid: 9964cc32ce476e2468f06d5a65e97001, type: 3}
+  - {fileID: 21300000, guid: bf1546beec14aae45806d487dd8ea303, type: 3}
+  - {fileID: 21300000, guid: c7ac20f56856b864a90bb20ad844d32f, type: 3}
+  - {fileID: 21300000, guid: bfd9e178af9aa9242b00e17781a4c794, type: 3}
+  - {fileID: 21300000, guid: 61b6214f2a8603a439441edda6569c0f, type: 3}
+  - {fileID: 21300000, guid: 6f9ba0c23908c714bafa3756ec1d32f5, type: 3}
+  - {fileID: 21300000, guid: b571b56b07258c344bebb92a6ceff827, type: 3}
+  - {fileID: 21300000, guid: 80506b303a51fbc40b055be5fd13e66b, type: 3}
+  - {fileID: 21300000, guid: 6fa4f75c11b3fca4f8cec1178362022c, type: 3}
+  - {fileID: 21300000, guid: 5560648b44f6dfc4fbe8cb013539d3e6, type: 3}
+  - {fileID: 21300000, guid: 660d166482d81324990f44c464d9b1ee, type: 3}
+  _xulies:
+  - MinNumber: 0
+    MaxNumber: 42
+    Framerate: 24
+    _playS: 0
+    playStatus: 2
+    eventStatus: 0
+    jumpTo: 0
+    owner: {fileID: 9140401963552225140}
+    currentIsForward: 0
+    currentFrameIndex: 12
+    timer: 0
+    range: {x: 0, y: 1}
+    OverEvents:
+      m_PersistentCalls:
+        m_Calls: []

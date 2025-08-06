@@ -1,0 +1,16 @@
+obj/
+Library/
+Temp/
+Build/
+Recordings/
+Builds/
+Logs/
+*.user
+*.sln
+*.csproj
+*.sln
+*.userprefs
+*.unityproj
+*.DS_Store
+*.7z
+*.zip

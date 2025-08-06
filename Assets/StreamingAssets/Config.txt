@@ -1,0 +1,3 @@
+[Reporter]
+enable=1
+show=0
