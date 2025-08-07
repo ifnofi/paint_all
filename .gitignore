@@ -14,3 +14,5 @@ Logs/
 *.DS_Store
 *.7z
 *.zip
+Assets/StreamingAssets/build_info
+UserSettings/Layouts/default-6000.dwlt
