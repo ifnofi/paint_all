@@ -14,7 +14,7 @@ namespace LFramework
     public class ScriptsInfoRecoder : UnityEditor.AssetModificationProcessor
     {
         private static void OnWillCreateAsset(string path)
-        {return;
+        {
             path = path.Replace(".meta", "");
             if (path.EndsWith(".cs"))
             {
