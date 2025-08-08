@@ -15,6 +15,7 @@ namespace LFramework
     {
         private static void OnWillCreateAsset(string path)
         {
+            return;
             path = path.Replace(".meta", "");
             if (path.EndsWith(".cs"))
             {
