@@ -167,7 +167,7 @@ public class IconMoveForPath : MonoBehaviour
 
     private int move3index = 0;
 
-    Sequence sequence = DOTween.Sequence();
+    private Sequence sequence;
     public float move3Unit=15;
     public float move3RotateUnit=15;
     public float move3ScaleUnit=15;

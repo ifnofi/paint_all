@@ -5,7 +5,6 @@ using LFramework;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public enum MoveState
 {
     OnlyMove, // 仅位移
@@ -17,7 +16,6 @@ public class GameMgr : MonoBehaviour
     public List<BoyAnimeMgr> boyAnimeMgrs = new List<BoyAnimeMgr>();
     private int boyIndex = 0;
     public Button startBtn;
-
 
     private void Start()
     {
@@ -48,6 +46,7 @@ public class GameMgr : MonoBehaviour
         {
             StopCoroutine(characterMoveCoroutine);
         }
+
         characterMoveCoroutine = StartCoroutine(CharacterMove());
     }
 
@@ -60,6 +59,7 @@ public class GameMgr : MonoBehaviour
     }
 
     private Coroutine characterMoveCoroutine;
+
     private IEnumerator CharacterMove()
     {
         Debug.Log("StartMove");
@@ -71,7 +71,7 @@ public class GameMgr : MonoBehaviour
         {
             doing = true;
             boyAnimeMgrs[boyIndex].Show();
-            boyAnimeMgrs[boyIndex].DoMove3Init(() =>
+            boyAnimeMgrs[boyIndex].StartMove(() =>
             {
                 boyAnimeMgrs[boyIndex].Hide();
                 Debug.Log($"播放第{boyIndex}个主角动画");
