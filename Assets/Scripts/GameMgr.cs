@@ -21,6 +21,7 @@ public class GameMgr : MonoBehaviour
 
     private void Start()
     {
+        BoysInit();
         startBtn.onClick.AddListener(CharacterMoveStart);
     }
 
