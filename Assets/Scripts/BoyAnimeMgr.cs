@@ -91,12 +91,12 @@ public class BoyAnimeMgr : SerializedMonoBehaviour
     {
         audioSource.clip = clip;
         audioSource.Play();
-        TimeController.Call(audioSource.clip.length, () =>
-        {
-            audioSource.Stop();
-            boyAnimator.Play("Walk", 0);
-            sequence.Play();
-        }, GetInstanceID() + "SetSoundClip");
+        // TimeController.Call(audioSource.clip.length, () =>
+        // {
+        //     audioSource.Stop();
+        //     boyAnimator.Play("Walk", 0);
+        //     sequence.Play();
+        // }, GetInstanceID() + "SetSoundClip");
     }
 
 
@@ -153,12 +153,23 @@ public class BoyAnimeMgr : SerializedMonoBehaviour
         moveImg.GetComponent<CanvasGroup>().DOFade(1, 1f).SetEase(Ease.Linear);
 
         var data = personTalks[0];
-        if (data != null&& data.PosNumber==0)
+        if (data.PosNumber == 0)
+        {
+            boyAnimator.Play("SayHello", 0);
+            sequence.Pause();
+            TimeController.Call(1f, () =>
+            {
+                audioSource.Stop();
+                boyAnimator.Play("Walk", 0);
+                sequence.Play();
+            }, GetInstanceID() + "SayHello");
+        }
+        else if (data != null && data.PosNumber == 0)
         {
             SetSoundClip(data.TalkClip);
-            HeightLightIcon(data.HeightLightIcons);
-            boyAnimator.Play("Talk", 0);
-            sequence.Pause();
+            // HeightLightIcon(data.HeightLightIcons);
+            // boyAnimator.Play("Talk", 0);
+            // sequence.Pause();
         }
         else
         {
