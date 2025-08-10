@@ -18,6 +18,24 @@ public class BoyController : MonoBehaviour
     private bool tempIsSpeakOver;
     private bool tempIsArrivePoint;
 
+    private AudioListener audioListener;
+
+    private void Start()
+    {
+        // helloAudioClip =Resources.Load<AudioClip>("哈喽");
+        audioListener = GetComponentInChildren<AudioListener>();
+        if (audioListener != null)
+        {
+            audioListener.enabled = false;
+        }
+        else
+        {
+            Debug.LogWarning("AudioListener component not found in children.");
+        }
+
+        canvasGroup.alpha = 0;
+    }
+
     public void Speak(int index)
     {
         TimeController.Kill(GetInstanceID() + "Speak");
@@ -48,6 +66,9 @@ public class BoyController : MonoBehaviour
         }
     }
 
+    public float helloDuration = 1f;
+    public AudioClip helloAudioClip;
+
     private void Play()
     {
         if (sequence != null)
@@ -55,6 +76,7 @@ public class BoyController : MonoBehaviour
             sequence.Kill();
         }
 
+        audioListener.enabled = true;
         audioSource.Pause();
 
         sequence = DOTween.Sequence();
@@ -65,9 +87,11 @@ public class BoyController : MonoBehaviour
         {
             tempIsArrivePoint = false;
             boyAnimator.Play("SayHello", 0);
+            audioSource.clip = helloAudioClip;
+            audioSource.Play();
         });
         sequence.Join(canvasGroup.DOFade(1, 1).SetEase(Ease.Linear));
-        sequence.AppendInterval(1f);
+        sequence.AppendInterval(helloDuration + helloAudioClip.length);
 
         sequence.AppendCallback(() =>
         {
@@ -75,6 +99,10 @@ public class BoyController : MonoBehaviour
         });
         sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
         sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
+        sequence.OnComplete(() =>
+        {
+            audioListener.enabled = false;
+        });
     }
 
     public float moveUnit = 10f;
@@ -108,19 +136,29 @@ public class BoyController : MonoBehaviour
         }
     }
 
-    public void AddSpeed()
+    public void AddSpeed(int index)
     {
         if (sequence != null)
         {
-            sequence.timeScale += 1f;
+            sequence.DOTimeScale(sequence.timeScale + index, 1f).SetEase(Ease.Linear).OnUpdate(() =>
+            {
+                boyAnimator.speed = sequence.timeScale;
+            });
         }
+
+        // sequence.timeScale += 1f; boyAnimator.Play("Run", 0);
     }
 
-    public void ReduceSpeed()
+    public void ReduceSpeed(int index)
     {
         if (sequence != null)
         {
-            sequence.timeScale -= 1f;
+            sequence.DOTimeScale(sequence.timeScale - index, 1f).SetEase(Ease.Linear).OnUpdate(() =>
+            {
+                boyAnimator.speed = sequence.timeScale;
+            });
+            // sequence.timeScale -= 1f;
+            // boyAnimator.Play("Walk", 0);
         }
     }
 }

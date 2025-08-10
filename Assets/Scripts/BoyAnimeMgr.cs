@@ -37,6 +37,7 @@ public class BoyAnimeMgr : SerializedMonoBehaviour
 
     private void Awake()
     {
+        return;
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
         {
@@ -45,7 +46,7 @@ public class BoyAnimeMgr : SerializedMonoBehaviour
         }
 
         pathPosParent = transform.Find("PathPos");
-        moveImg = transform.Find($"{transform.name}").GetComponent<RectTransform>();
+        // moveImg = transform.Find($"{transform.name}").GetComponent<RectTransform>();
         foreach (Transform tra in pathPosParent)
         {
             pathRect.Add(tra.GetComponent<RectTransform>());

@@ -32,10 +32,10 @@ public class SpeakTrigger : MonoBehaviour
                         player.ArrivePoint();
                         break;
                     case TriggerType.AddSpeed:
-                        player.AddSpeed();
+                        player.AddSpeed(index);
                         break;
                     case TriggerType.ReduceSpeed:
-                        player.ReduceSpeed(); 
+                        player.ReduceSpeed(index); 
                         break;
                 }
             }
