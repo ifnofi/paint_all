@@ -43,6 +43,7 @@ public class BoyController : MonoBehaviour
         boyAnimator.transform.GetComponent<RectTransform>().localRotation = pathPoints[0].localRotation;
         boyAnimator.transform.GetComponent<RectTransform>().localScale = pathPoints[0].localScale;
         boyAnimator.transform.GetComponent<CanvasGroup>().alpha = 0;
+        audioListener.enabled = false;
     }
 
     public void Speak(int index)

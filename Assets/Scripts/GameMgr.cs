@@ -29,6 +29,11 @@ public class GameMgr : MonoBehaviour
         {
             CharacterMoveStart();
         }
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            CharacterMoveStart();
+        }
     }
 
     private void BoysInit()
