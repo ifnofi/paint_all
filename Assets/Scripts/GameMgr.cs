@@ -13,7 +13,7 @@ public enum MoveState
 
 public class GameMgr : MonoBehaviour
 {
-    public List<BoyAnimeMgr> boyAnimeMgrs = new List<BoyAnimeMgr>();
+    public List<BoyController> BoyControllers = new List<BoyController>();
     private int boyIndex = 0;
     public Button startBtn;
 
@@ -33,7 +33,7 @@ public class GameMgr : MonoBehaviour
 
     private void BoysInit()
     {
-        foreach (var boy in boyAnimeMgrs)
+        foreach (var boy in BoyControllers)
         {
             boy.Init();
             boy.Hide();
@@ -62,18 +62,18 @@ public class GameMgr : MonoBehaviour
 
     private IEnumerator CharacterMove()
     {
-        Debug.Log("StartMove");
+        Debug.Log("CharacterMove");
         BoysInit();
         boyIndex = 0;
 
         var doing = false;
-        while (boyIndex <= boyAnimeMgrs.Count)
+        while (boyIndex <= BoyControllers.Count)
         {
             doing = true;
-            boyAnimeMgrs[boyIndex].Show();
-            boyAnimeMgrs[boyIndex].StartMove(() =>
+            BoyControllers[boyIndex].Show();
+            BoyControllers[boyIndex].Play(() =>
             {
-                boyAnimeMgrs[boyIndex].Hide();
+                BoyControllers[boyIndex].Hide();
                 Debug.Log($"播放第{boyIndex}个主角动画");
                 boyIndex++;
                 doing = false;

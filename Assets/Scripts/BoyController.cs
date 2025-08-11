@@ -20,7 +20,7 @@ public class BoyController : MonoBehaviour
 
     private AudioListener audioListener;
 
-    private void Start()
+    private void Awake()
     {
         // helloAudioClip =Resources.Load<AudioClip>("哈喽");
         audioListener = GetComponentInChildren<AudioListener>();
@@ -34,6 +34,15 @@ public class BoyController : MonoBehaviour
         }
 
         canvasGroup.alpha = 0;
+    }
+
+
+    public void Init()
+    {
+        boyAnimator.transform.GetComponent<RectTransform>().localPosition = pathPoints[0].localPosition;
+        boyAnimator.transform.GetComponent<RectTransform>().localRotation = pathPoints[0].localRotation;
+        boyAnimator.transform.GetComponent<RectTransform>().localScale = pathPoints[0].localScale;
+        boyAnimator.transform.GetComponent<CanvasGroup>().alpha = 0;
     }
 
     public void Speak(int index)
@@ -69,7 +78,7 @@ public class BoyController : MonoBehaviour
     public float helloDuration = 1f;
     public AudioClip helloAudioClip;
 
-    private void Play()
+    public void Play(Action callback = null)
     {
         if (sequence != null)
         {
@@ -93,15 +102,13 @@ public class BoyController : MonoBehaviour
         sequence.Join(canvasGroup.DOFade(1, 1).SetEase(Ease.Linear));
         sequence.AppendInterval(helloDuration + helloAudioClip.length);
 
-        sequence.AppendCallback(() =>
-        {
-            boyAnimator.Play("Walk", 0);
-        });
+        sequence.AppendCallback(() => { boyAnimator.Play("Walk", 0); });
         sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
         sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
         sequence.OnComplete(() =>
         {
             audioListener.enabled = false;
+            callback.Invoke();
         });
     }
 
@@ -140,10 +147,7 @@ public class BoyController : MonoBehaviour
     {
         if (sequence != null)
         {
-            sequence.DOTimeScale(sequence.timeScale + index, 1f).SetEase(Ease.Linear).OnUpdate(() =>
-            {
-                boyAnimator.speed = sequence.timeScale;
-            });
+            sequence.DOTimeScale(sequence.timeScale + index, 1f).SetEase(Ease.Linear).OnUpdate(() => { boyAnimator.speed = sequence.timeScale; });
         }
 
         // sequence.timeScale += 1f; boyAnimator.Play("Run", 0);
@@ -153,10 +157,7 @@ public class BoyController : MonoBehaviour
     {
         if (sequence != null)
         {
-            sequence.DOTimeScale(sequence.timeScale - index, 1f).SetEase(Ease.Linear).OnUpdate(() =>
-            {
-                boyAnimator.speed = sequence.timeScale;
-            });
+            sequence.DOTimeScale(sequence.timeScale - index, 1f).SetEase(Ease.Linear).OnUpdate(() => { boyAnimator.speed = sequence.timeScale; });
             // sequence.timeScale -= 1f;
             // boyAnimator.Play("Walk", 0);
         }
