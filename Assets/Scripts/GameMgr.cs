@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Sockets;
 using LFramework;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,6 +14,7 @@ public enum MoveState
 
 public class GameMgr : MonoBehaviour
 {
+    public TCPServer tcpServer;
     public List<BoyController> BoyControllers = new List<BoyController>();
     private int boyIndex = 0;
     public Button startBtn;
@@ -21,6 +23,36 @@ public class GameMgr : MonoBehaviour
     {
         BoysInit();
         startBtn.onClick.AddListener(CharacterMoveStart);
+
+        tcpServer = new TCPServer(1234);
+        tcpServer.ReciveEvent += TcpServerOnReciveEvent;
+        tcpServer.DebugEvent += Debug.Log;
+        tcpServer.codeType = StringType.UTF8;
+        tcpServer.StartListening();
+    }
+
+    public void OnDestroy()
+    {
+        if (tcpServer != null)
+        {
+            tcpServer.ReciveEvent -= TcpServerOnReciveEvent;
+            tcpServer.DebugEvent -= Debug.Log;
+            tcpServer.StopListening();
+        }
+    }
+
+    private void TcpServerOnReciveEvent(byte[] t, int x, Socket y)
+    {
+        var rec = TCPTool.BytesToStringByEncoding(t, 0, x, tcpServer.codeType);
+        Debug.Log($"接收到数据: {rec}");
+        if (rec == "start")
+        {
+            CharacterMoveStart();
+        }
+        else if (rec == "stop")
+        {
+            CharacterMoveStop();
+        }
     }
 
     private void Update()
@@ -29,10 +61,10 @@ public class GameMgr : MonoBehaviour
         {
             CharacterMoveStart();
         }
-        
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            CharacterMoveStart();
+            CharacterMoveStop();
         }
     }
 
@@ -61,6 +93,8 @@ public class GameMgr : MonoBehaviour
         {
             StopCoroutine(characterMoveCoroutine);
         }
+
+        BoysInit();
     }
 
     private Coroutine characterMoveCoroutine;
