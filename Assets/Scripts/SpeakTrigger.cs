@@ -11,6 +11,7 @@ public class SpeakTrigger : MonoBehaviour
         StopPoint,
         AddSpeed,
         ReduceSpeed,
+        StopButWaitTime,
     }
 
     public TriggerType triggerType;
@@ -36,6 +37,9 @@ public class SpeakTrigger : MonoBehaviour
                         break;
                     case TriggerType.ReduceSpeed:
                         player.ReduceSpeed(index); 
+                        break;
+                    case TriggerType.StopButWaitTime:
+                        player.StopWaitTime(index);
                         break;
                 }
             }

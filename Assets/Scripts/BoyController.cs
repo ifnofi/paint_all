@@ -121,6 +121,7 @@ public class BoyController : MonoBehaviour
 
     public void Play(Action callback = null)
     {
+        TimeController.Kill(GetInstanceID()+"StopWaitTime");
         if (sequence != null)
         {
             sequence.Kill();
@@ -202,5 +203,18 @@ public class BoyController : MonoBehaviour
             // sequence.timeScale -= 1f;
             // boyAnimator.Play("Walk", 0);
         }
+    }
+
+    public void StopWaitTime(int index)
+    {
+        boyAnimator.Play("Talk", 0);
+        sequence.Pause();
+        TimeController.Call(index,
+            () =>
+            {
+                sequence.Play();
+                boyAnimator.Play("Walk", 0);
+            },
+            GetInstanceID() + "StopWaitTime");
     }
 }
