@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Sockets;
+using DG.Tweening;
 using LFramework;
 using UnityEngine;
 using UnityEngine.UI;
@@ -53,6 +54,18 @@ public class GameMgr : MonoBehaviour
         {
             CharacterMoveStop();
         }
+        else if (rec == "pause")
+        {
+            CharacterMovePause();
+        }
+        else if (rec == "unpause")
+        {
+            CharacterMoveUnPause();
+        }
+        else
+        {
+            
+        }
     }
 
     private void Update()
@@ -96,6 +109,17 @@ public class GameMgr : MonoBehaviour
 
         BoysInit();
     }
+    
+    public void CharacterMovePause()
+    {
+        BoyControllers[boyIndex].Pause();
+    }
+
+    public void CharacterMoveUnPause()
+    {
+        BoyControllers[boyIndex].UnPause();
+    }
+    
 
     private Coroutine characterMoveCoroutine;
 

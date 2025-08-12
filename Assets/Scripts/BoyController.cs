@@ -36,7 +36,6 @@ public class BoyController : MonoBehaviour
         canvasGroup.alpha = 0;
     }
 
-
     public void Init()
     {
         boyAnimator.transform.GetComponent<RectTransform>().localPosition = pathPoints[0].localPosition;
@@ -74,6 +73,46 @@ public class BoyController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             Play();
+        }
+    }
+
+    // 
+    public string currentAnName = "Walk";
+
+    public void Pause()
+    {
+        if (sequence != null && sequence.IsActive() && sequence.IsPlaying())
+        {
+            sequence.Pause();
+            audioSource.Pause();
+            audioListener.enabled = false;
+            currentAnName = boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk") ? "Walk" :
+                boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("SayHello") ? "SayHello" : "Talk";
+
+            boyAnimator.Play("Talk", 0);
+        }
+    }
+
+    public void UnPause()
+    {
+        if (sequence != null && sequence.IsActive() && !sequence.IsPlaying())
+        {
+            switch (currentAnName)
+            {
+                case "Walk":
+                    boyAnimator.Play("Walk", 0);
+                    break;
+                case "SayHello":
+                    boyAnimator.Play("SayHello", 0);
+                    break;
+                case "Talk":
+                    boyAnimator.Play("Talk", 0);
+                    break;
+            }
+
+            sequence.Play();
+            audioSource.UnPause();
+            audioListener.enabled = true;
         }
     }
 
