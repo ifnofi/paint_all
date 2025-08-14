@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using DG.Tweening.Core;
+using DG.Tweening.Plugins.Options;
 using LFramework;
 using UnityEngine;
 using Sequence = DG.Tweening.Sequence;
@@ -85,6 +87,7 @@ public class BoyController : MonoBehaviour
         {
             sequence.Pause();
             audioSource.Pause();
+            stopWaitTimeTweener?.Pause();
             audioListener.enabled = false;
             currentAnName = boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk") ? "Walk" :
                 boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("SayHello") ? "SayHello" : "Talk";
@@ -111,6 +114,7 @@ public class BoyController : MonoBehaviour
             }
 
             sequence.Play();
+            stopWaitTimeTweener?.Play();
             audioSource.UnPause();
             audioListener.enabled = true;
         }
@@ -121,7 +125,14 @@ public class BoyController : MonoBehaviour
 
     public void Play(Action callback = null)
     {
-        TimeController.Kill(GetInstanceID()+"StopWaitTime");
+        TimeController.Kill(GetInstanceID() + "StopWaitTime");
+
+        if (stopWaitTimeTweener != null)
+        {
+            stopWaitTimeTweener.Kill(true);
+            stopWaitTimeTweener = null;
+        }
+
         if (sequence != null)
         {
             sequence.Kill();
@@ -205,16 +216,34 @@ public class BoyController : MonoBehaviour
         }
     }
 
+    TweenerCore<float, float, FloatOptions> stopWaitTimeTweener;
+
     public void StopWaitTime(int index)
     {
-        boyAnimator.Play("Talk", 0);
+        Talk();
+        if (stopWaitTimeTweener != null)
+        {
+            stopWaitTimeTweener.Kill(true);
+        }
+
+        stopWaitTimeTweener = TimeController.Call(index, Walk, GetInstanceID() + "StopWaitTime");
+    }
+
+    public void Walk()
+    {
+        sequence.Play();
+        boyAnimator.Play("Walk", 0);
+    }
+
+    public void Hello()
+    {
         sequence.Pause();
-        TimeController.Call(index,
-            () =>
-            {
-                sequence.Play();
-                boyAnimator.Play("Walk", 0);
-            },
-            GetInstanceID() + "StopWaitTime");
+        boyAnimator.Play("SayHello", 0);
+    }
+
+    public void Talk()
+    {
+        sequence.Pause();
+        boyAnimator.Play("Talk", 0);
     }
 }
