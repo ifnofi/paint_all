@@ -130,7 +130,7 @@ public class GameMgr : MonoBehaviour
         boyIndex = 0;
 
         var doing = false;
-        while (boyIndex <= BoyControllers.Count)
+        while (boyIndex < BoyControllers.Count)
         {
             doing = true;
             BoyControllers[boyIndex].Show();
