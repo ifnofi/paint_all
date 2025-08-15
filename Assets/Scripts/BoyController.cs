@@ -25,6 +25,7 @@ public class BoyController : MonoBehaviour
     private void Awake()
     {
         // helloAudioClip =Resources.Load<AudioClip>("哈喽");
+        boxCollider = canvasGroup.GetComponentInChildren<BoxCollider>();
         audioListener = GetComponentInChildren<AudioListener>();
         if (audioListener != null)
         {
@@ -38,6 +39,8 @@ public class BoyController : MonoBehaviour
         canvasGroup.alpha = 0;
     }
 
+    BoxCollider boxCollider;
+
     public void Init()
     {
         boyAnimator.transform.GetComponent<RectTransform>().localPosition = pathPoints[0].localPosition;
@@ -45,6 +48,7 @@ public class BoyController : MonoBehaviour
         boyAnimator.transform.GetComponent<RectTransform>().localScale = pathPoints[0].localScale;
         boyAnimator.transform.GetComponent<CanvasGroup>().alpha = 0;
         audioListener.enabled = false;
+        boxCollider.enabled = false;
         audioSource.Stop();
     }
 
@@ -154,8 +158,18 @@ public class BoyController : MonoBehaviour
         });
         sequence.Join(canvasGroup.DOFade(1, 1).SetEase(Ease.Linear));
         sequence.AppendInterval(helloDuration + helloAudioClip.length);
-
-        sequence.AppendCallback(() => { boyAnimator.Play("Walk", 0); });
+        sequence.AppendCallback(() =>
+        {
+            boxCollider.enabled = true;
+        });
+        sequence.AppendInterval(0.1f);
+        sequence.AppendCallback(() =>
+        {
+            if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+            {
+                boyAnimator.Play("Walk", 0);
+            }
+        });
         sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
         sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
         sequence.OnComplete(() =>
