@@ -6298,7 +6298,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &182082709
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6351,7 +6351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afebc7a1f2914032a639bd4d727b1252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 4
+  index: 5
   triggerType: 4
 --- !u!1 &184511961
 GameObject:
@@ -7032,6 +7032,7 @@ MonoBehaviour:
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
+  startPlayHello: 0
   moveUnit: 50
 --- !u!1 &202231488
 GameObject:
@@ -18470,19 +18471,19 @@ AudioSource:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.0047740936
-      value: 0.55849075
-      inSlope: -0.36900994
-      outSlope: -0.36900994
+      time: 0
+      value: 0.969677
+      inSlope: -0.6114134
+      outSlope: -0.6114134
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.7149648
-      value: 0.29642332
-      inSlope: -0.5611698
-      outSlope: -0.5611698
+      time: 0.68154806
+      value: 0.55296934
+      inSlope: -0.969677
+      outSlope: -0.969677
       tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
@@ -19477,6 +19478,9 @@ RectTransform:
   - {fileID: 1703865493}
   - {fileID: 1087754388}
   - {fileID: 598197389}
+  - {fileID: 718683572}
+  - {fileID: 1310314555}
+  - {fileID: 941175471}
   m_Father: {fileID: 1387826294}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -22568,7 +22572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3247, y: -209.2}
+  m_AnchoredPosition: {x: -3238, y: -204.2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &599292243
@@ -26585,6 +26589,41 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2969.801, y: -425.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &718683571
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718683572}
+  m_Layer: 5
+  m_Name: pos (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &718683572
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718683571}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 512675536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3088, y: -181.2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &723595537
@@ -31947,6 +31986,7 @@ MonoBehaviour:
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
+  startPlayHello: 0
   moveUnit: 36
 --- !u!82 &899889849
 AudioSource:
@@ -34114,6 +34154,41 @@ RectTransform:
   m_AnchoredPosition: {x: 1745.6018, y: -469.90005}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &941175470
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941175471}
+  m_Layer: 5
+  m_Name: pos (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &941175471
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941175470}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 512675536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2768, y: -76.2}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &946494092
 GameObject:
   m_ObjectHideFlags: 0
@@ -34850,7 +34925,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afebc7a1f2914032a639bd4d727b1252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 21
+  index: 22
   triggerType: 4
 --- !u!1 &978355971
 GameObject:
@@ -37823,6 +37898,7 @@ MonoBehaviour:
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
+  startPlayHello: 0
   moveUnit: 30
 --- !u!1 &1085829218
 GameObject:
@@ -39553,7 +39629,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afebc7a1f2914032a639bd4d727b1252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 3
+  index: 4
   triggerType: 4
 --- !u!1 &1167725629
 GameObject:
@@ -42943,7 +43019,7 @@ GameObject:
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1264391890
 RectTransform:
   m_ObjectHideFlags: 0
@@ -42960,7 +43036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 673.9, y: -43.69995}
+  m_AnchoredPosition: {x: 541.9, y: -43.69995}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1264391891
@@ -42996,8 +43072,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afebc7a1f2914032a639bd4d727b1252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 25
-  triggerType: 1
+  index: 3
+  triggerType: 4
 --- !u!1 &1265836683
 GameObject:
   m_ObjectHideFlags: 0
@@ -43877,7 +43953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afebc7a1f2914032a639bd4d727b1252, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 11
+  index: 4
   triggerType: 4
 --- !u!1 &1281577865
 GameObject:
@@ -44594,6 +44670,41 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306207210}
   m_CullTransparentMesh: 0
+--- !u!1 &1310314554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1310314555}
+  m_Layer: 5
+  m_Name: pos (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1310314555
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310314554}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 512675536}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2918, y: -135.2}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1318112579
 GameObject:
   m_ObjectHideFlags: 0
@@ -46514,10 +46625,13 @@ MonoBehaviour:
   - {fileID: 1703865493}
   - {fileID: 1087754388}
   - {fileID: 598197389}
+  - {fileID: 718683572}
+  - {fileID: 1310314555}
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
-  moveUnit: 20
+  startPlayHello: 0
+  moveUnit: 30
 --- !u!1 &1389466126
 GameObject:
   m_ObjectHideFlags: 0
@@ -57709,7 +57823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.755}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400.1, y: -82}
+  m_AnchoredPosition: {x: 390.10086, y: -81.868164}
   m_SizeDelta: {x: 149.5208, y: 101.1795}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771846481
@@ -60518,7 +60632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1444.7, y: -503.4}
+  m_AnchoredPosition: {x: -1477.7, y: -503.4}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1871877369
@@ -65301,6 +65415,7 @@ MonoBehaviour:
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
+  startPlayHello: 0
   moveUnit: 40
 --- !u!1 &2043452999
 GameObject:
@@ -68538,6 +68653,7 @@ MonoBehaviour:
   currentAnName: Walk
   helloDuration: 2
   helloAudioClip: {fileID: 8300000, guid: 3bac079bf4b15fe478de86ab117f47d9, type: 3}
+  startPlayHello: 1
   moveUnit: 120
 --- !u!1 &2136247451
 GameObject:

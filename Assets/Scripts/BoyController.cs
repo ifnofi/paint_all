@@ -126,6 +126,7 @@ public class BoyController : MonoBehaviour
 
     public float helloDuration = 1f;
     public AudioClip helloAudioClip;
+    public bool startPlayHello;
 
     public void Play(Action callback = null)
     {
@@ -145,38 +146,66 @@ public class BoyController : MonoBehaviour
         audioListener.enabled = true;
         audioSource.Pause();
 
+        tempIsArrivePoint = false;
         sequence = DOTween.Sequence();
         sequence.Append(canvasGroup.DOFade(0, 0).SetEase(Ease.Linear));
         sequence.Join(boyAnimator.transform.DOMove(pathPoints[0].position, 0).SetEase(Ease.Linear));
-
-        sequence.AppendCallback(() =>
+        if (startPlayHello)
         {
-            tempIsArrivePoint = false;
-            boyAnimator.Play("SayHello", 0);
-            audioSource.clip = helloAudioClip;
-            audioSource.Play();
-        });
-        sequence.Join(canvasGroup.DOFade(1, 1).SetEase(Ease.Linear));
-        sequence.AppendInterval(helloDuration + helloAudioClip.length);
-        sequence.AppendCallback(() =>
+            sequence.AppendCallback(() =>
+            {
+                tempIsArrivePoint = false;
+                boyAnimator.Play("SayHello", 0);
+                audioSource.clip = helloAudioClip;
+                audioSource.Play();
+            });
+            sequence.Join(canvasGroup.DOFade(1, 1).SetEase(Ease.Linear));
+            sequence.AppendInterval(helloDuration + helloAudioClip.length);
+            sequence.AppendCallback(() =>
+            {
+                boxCollider.enabled = true;
+            });
+            sequence.AppendInterval(0.1f);
+            sequence.AppendCallback(() =>
+            {
+                if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+                {
+                    boyAnimator.Play("Walk", 0);
+                }
+            });
+            sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
+            sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
+            sequence.OnComplete(() =>
+            {
+                audioListener.enabled = false;
+                callback.Invoke();
+            });
+        }
+        else
         {
             boxCollider.enabled = true;
-        });
-        sequence.AppendInterval(0.1f);
-        sequence.AppendCallback(() =>
-        {
-            if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+            sequence.AppendCallback(() =>
             {
-                boyAnimator.Play("Walk", 0);
-            }
-        });
-        sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
-        sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
-        sequence.OnComplete(() =>
-        {
-            audioListener.enabled = false;
-            callback.Invoke();
-        });
+                boyAnimator.Play("SayHello", 0);
+            });
+            sequence.Join(canvasGroup.DOFade(1, 0.5f).SetEase(Ease.Linear));
+            sequence.AppendCallback(() =>
+            {
+                boxCollider.enabled = true;
+                if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+                {
+                    boyAnimator.Play("Walk", 0);
+                }
+            });
+
+            sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
+            sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
+            sequence.OnComplete(() =>
+            {
+                audioListener.enabled = false;
+                callback.Invoke();
+            });
+        }
     }
 
     public float moveUnit = 10f;
