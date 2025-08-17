@@ -87,41 +87,43 @@ public class BoyController : MonoBehaviour
 
     public void Pause()
     {
-        if (sequence != null && sequence.IsActive() && sequence.IsPlaying())
-        {
-            sequence.Pause();
-            audioSource.Pause();
-            stopWaitTimeTweener?.Pause();
-            audioListener.enabled = false;
-            currentAnName = boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk") ? "Walk" :
-                boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("SayHello") ? "SayHello" : "Talk";
-
-            boyAnimator.Play("Talk", 0);
-        }
+        audioSource.Pause();
+        // if (sequence != null && sequence.IsPlaying())
+        // {
+        //     sequence.Pause();
+        //     audioSource.Pause();
+        //     stopWaitTimeTweener?.Pause();
+        //     audioListener.enabled = false;
+        //     currentAnName = boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk") ? "Walk" :
+        //         boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("SayHello") ? "SayHello" : "Talk";
+        //
+        //     boyAnimator.Play("Talk", 0);
+        // }
     }
 
     public void UnPause()
     {
-        if (sequence != null && sequence.IsActive() && !sequence.IsPlaying())
-        {
-            switch (currentAnName)
-            {
-                case "Walk":
-                    boyAnimator.Play("Walk", 0);
-                    break;
-                case "SayHello":
-                    boyAnimator.Play("SayHello", 0);
-                    break;
-                case "Talk":
-                    boyAnimator.Play("Talk", 0);
-                    break;
-            }
-
-            sequence.Play();
-            stopWaitTimeTweener?.Play();
-            audioSource.UnPause();
-            audioListener.enabled = true;
-        }
+        audioSource.UnPause();
+        // if (sequence != null && sequence.IsActive() && !sequence.IsPlaying())
+        // {
+        //     switch (currentAnName)
+        //     {
+        //         case "Walk":
+        //             boyAnimator.Play("Walk", 0);
+        //             break;
+        //         case "SayHello":
+        //             boyAnimator.Play("SayHello", 0);
+        //             break;
+        //         case "Talk":
+        //             boyAnimator.Play("Talk", 0);
+        //             break;
+        //     }
+        //
+        //     sequence.Play();
+        //     stopWaitTimeTweener?.Play();
+        //     audioSource.UnPause();
+        //     audioListener.enabled = true;
+        // }
     }
 
     public float helloDuration = 1f;

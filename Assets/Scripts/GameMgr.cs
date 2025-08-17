@@ -24,7 +24,7 @@ public class GameMgr : MonoBehaviour
     {
         BoysInit();
         startBtn.onClick.AddListener(CharacterMoveStart);
-
+        // audioSources = get
         tcpServer = new TCPServer(1234);
         tcpServer.ReciveEvent += TcpServerOnReciveEvent;
         tcpServer.DebugEvent += Debug.Log;
@@ -64,7 +64,6 @@ public class GameMgr : MonoBehaviour
         }
         else
         {
-            
         }
     }
 
@@ -97,6 +96,12 @@ public class GameMgr : MonoBehaviour
             StopCoroutine(characterMoveCoroutine);
         }
 
+        foreach (var audioSource in audioSources)
+        {
+            audioSource.UnPause();
+        }
+
+        Time.timeScale = 1;
         characterMoveCoroutine = StartCoroutine(CharacterMove());
     }
 
@@ -106,21 +111,36 @@ public class GameMgr : MonoBehaviour
         {
             StopCoroutine(characterMoveCoroutine);
         }
-
+        foreach (var audioSource in audioSources)
+        {
+            audioSource.UnPause();
+        }
+        Time.timeScale = 1;
         BoysInit();
     }
-    
+
     public void CharacterMovePause()
     {
-        BoyControllers[boyIndex].Pause();
+        foreach (var audioSource in audioSources)
+        {
+            audioSource.Pause();
+        }
+
+        Time.timeScale = 0;
+        // BoyControllers[boyIndex].Pause();
     }
 
     public void CharacterMoveUnPause()
     {
-        BoyControllers[boyIndex].UnPause();
+        Time.timeScale = 1;
+        // BoyControllers[boyIndex].UnPause();
+        foreach (var audioSource in audioSources)
+        {
+            audioSource.UnPause();
+        }
     }
-    
 
+    public List<AudioSource> audioSources = new List<AudioSource>();
     private Coroutine characterMoveCoroutine;
 
     private IEnumerator CharacterMove()
