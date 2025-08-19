@@ -186,19 +186,24 @@ public class BoyController : MonoBehaviour
         else
         {
             boxCollider.enabled = true;
-            sequence.AppendCallback(() =>
+            canvasGroup.DOFade(1, 0.5f).SetEase(Ease.Linear);
+            if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
             {
-                boyAnimator.Play("SayHello", 0);
-            });
-            sequence.Join(canvasGroup.DOFade(1, 0.5f).SetEase(Ease.Linear));
-            sequence.AppendCallback(() =>
-            {
-                boxCollider.enabled = true;
-                if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
-                {
-                    boyAnimator.Play("Walk", 0);
-                }
-            });
+                boyAnimator.Play("Walk", 0);
+            }
+            // sequence.AppendCallback(() =>
+            // {
+            //     boyAnimator.Play("SayHello", 0);
+            // });
+            // sequence.Join(canvasGroup.DOFade(1, 0.5f).SetEase(Ease.Linear));
+            // sequence.AppendCallback(() =>
+            // {
+            //     boxCollider.enabled = true;
+            //     if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+            //     {
+            //         boyAnimator.Play("Walk", 0);
+            //     }
+            // });
 
             sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
             sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
