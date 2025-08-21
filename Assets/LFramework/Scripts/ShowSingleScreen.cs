@@ -212,6 +212,7 @@ public class ShowSingleScreen : MonoBehaviour
 
     public static IntPtr GetProcessWnd()
     {
+        // return System.Diagnostics.Process.GetCurrentProcess().MainWindowHandle;
         IntPtr ptrWnd = IntPtr.Zero;
         uint pid = (uint)Process.GetCurrentProcess().Id; // 当前进程 ID
 

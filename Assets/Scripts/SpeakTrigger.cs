@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SpeakTrigger : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class SpeakTrigger : MonoBehaviour
     }
 
     public TriggerType triggerType;
+    public UnityEvent onTriggerEnterEvent;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -24,6 +26,8 @@ public class SpeakTrigger : MonoBehaviour
             var player = other.GetComponentInParent<BoyController>();
             if (player != null)
             {
+                onTriggerEnterEvent.Invoke();
+                
                 switch (triggerType)
                 {
                     case TriggerType.Speak:
@@ -36,7 +40,7 @@ public class SpeakTrigger : MonoBehaviour
                         player.AddSpeed(index);
                         break;
                     case TriggerType.ReduceSpeed:
-                        player.ReduceSpeed(index); 
+                        player.ReduceSpeed(index);
                         break;
                     case TriggerType.StopButWaitTime:
                         player.StopWaitTime(index);
