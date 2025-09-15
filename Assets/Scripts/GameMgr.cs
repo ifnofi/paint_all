@@ -13,10 +13,11 @@ public enum MoveState
     AllChange // 位移 缩放 旋转
 }
 
-public class GameMgr : MonoBehaviour
+public class GameMgr : MonoSingleton<GameMgr>
 {
     public TCPServer tcpServer;
     public List<BoyController> BoyControllers = new List<BoyController>();
+    public List<BaseController> BaseControllers = new List<BaseController>();
     private int boyIndex = 0;
     public Button startBtn;
 
@@ -87,6 +88,12 @@ public class GameMgr : MonoBehaviour
             boy.Init();
             boy.Hide();
         }
+
+        foreach (var baseController in BaseControllers)
+        {
+            baseController.Init();
+            baseController.Hide();
+        }
     }
 
     public void CharacterMoveStart()
@@ -111,10 +118,12 @@ public class GameMgr : MonoBehaviour
         {
             StopCoroutine(characterMoveCoroutine);
         }
+
         foreach (var audioSource in audioSources)
         {
             audioSource.UnPause();
         }
+
         Time.timeScale = 1;
         BoysInit();
     }
@@ -143,6 +152,8 @@ public class GameMgr : MonoBehaviour
     public List<AudioSource> audioSources = new List<AudioSource>();
     private Coroutine characterMoveCoroutine;
 
+    public bool useOld = true;
+
     private IEnumerator CharacterMove()
     {
         Debug.Log("CharacterMove");
@@ -150,19 +161,39 @@ public class GameMgr : MonoBehaviour
         boyIndex = 0;
 
         var doing = false;
-        while (boyIndex < BoyControllers.Count)
+        if (useOld)
         {
-            doing = true;
-            BoyControllers[boyIndex].Show();
-            BoyControllers[boyIndex].Play(() =>
+            while (boyIndex < BoyControllers.Count)
             {
-                BoyControllers[boyIndex].Hide();
-                Debug.Log($"播放第{boyIndex}个主角动画");
-                boyIndex++;
-                doing = false;
-            });
-            yield return new WaitUntil(() => !doing);
+                doing = true;
+                BoyControllers[boyIndex].Show();
+                BoyControllers[boyIndex].Play(() =>
+                {
+                    BoyControllers[boyIndex].Hide();
+                    Debug.Log($"播放第{boyIndex}个主角动画");
+                    boyIndex++;
+                    doing = false;
+                });
+                yield return new WaitUntil(() => !doing);
+            }
         }
+        else
+        {
+            while (boyIndex < BaseControllers.Count)
+            {
+                doing = true;
+                BaseControllers[boyIndex].Show();
+                BaseControllers[boyIndex].Play(() =>
+                {
+                    BaseControllers[boyIndex].Hide();
+                    Debug.Log($"播放第{boyIndex}个主角动画");
+                    boyIndex++;
+                    doing = false;
+                });
+                yield return new WaitUntil(() => !doing);
+            }
+        }
+
 
         Debug.Log("主角动画播放完毕" + boyIndex);
     }
