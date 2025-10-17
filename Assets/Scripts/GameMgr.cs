@@ -98,6 +98,13 @@ public class GameMgr : MonoSingleton<GameMgr>
 
     public void CharacterMoveStart()
     {
+        CharacterMoveStop();
+        var sequence = StoneControl.Instance.Play(RoleBegin);
+        sequence.Play();
+    }
+
+    public void RoleBegin()
+    {
         if (characterMoveCoroutine != null)
         {
             StopCoroutine(characterMoveCoroutine);
