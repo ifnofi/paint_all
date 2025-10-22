@@ -33,40 +33,40 @@ public enum EventStatus
 [Serializable]
 public class ActionXulie
 {
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public int MinNumber = 0;
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public int MaxNumber = 1;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public float Framerate = 20.0f;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public PlayS _playS = PlayS.播放;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public PlayStatus playStatus = PlayStatus.一遍;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public EventStatus eventStatus = EventStatus.none;
 
     private bool showJumpTo => eventStatus == EventStatus.结束跳转某个;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")] [Sirenix.OdinInspector.ShowIf("showJumpTo")]
-#endif
+    #endif
     public int jumpTo;
 
     [HideInInspector] public PlaySequence owner;
@@ -75,20 +75,20 @@ public class ActionXulie
     /// 当前播放的方向
     /// </summary>
     /// 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public bool currentIsForward = true;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.PropertyRange("MinNumber", "MaxNumber")] [Sirenix.OdinInspector.TabGroup("基础数据")]
-        [Sirenix.OdinInspector.OnValueChanged("OnRangeChanged1")] 
-#endif
+    [Sirenix.OdinInspector.OnValueChanged("OnRangeChanged1")]
+    #endif
     public int currentFrameIndex = 0;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public float timer = 0f; // 用于计时的变量
 
     public void Reset()
@@ -104,21 +104,21 @@ public class ActionXulie
         }
     }
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.MinMaxSlider("MinNumber", "MaxNumber", true)] [Sirenix.OdinInspector.OnValueChanged("OnRangeChanged")] [Sirenix.OdinInspector.TabGroup("编辑数据")]
-#endif
+    #endif
     public Vector2Int range = new Vector2Int(0, 1);
 
     private Vector2Int previousRange;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("基础数据")]
-#endif
+    #endif
     public UnityEvent OverEvents;
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("编辑数据")]
-#endif
+    #endif
     private void OnRangeChanged()
     {
         if (range.x != previousRange.x)
@@ -149,25 +149,23 @@ public class ActionXulie
         }
     }
 
-
     private void OnRangeChanged1()
     {
-#if UNITY_EDITOR
-            if (!UnityEditor.EditorApplication.isPlaying)
-            {Check();
-               
-            owner.Update();
+        #if UNITY_EDITOR
+        if (!UnityEditor.EditorApplication.isPlaying)
+        {
             Check();
 
-            }
-#endif
-
+            owner.Update();
+            Check();
+        }
+        #endif
     }
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.TabGroup("编辑数据")]
     [Sirenix.OdinInspector.Button("根据范围创建序列", Sirenix.OdinInspector.ButtonSizes.Large, Sirenix.OdinInspector.ButtonStyle.CompactBox)]
-#endif
+    #endif
     public void CreateXulieByRange()
     {
         var xulie = new ActionXulie
@@ -259,9 +257,9 @@ public class PlaySequence : MonoBehaviour
     /// <summary>
     /// 播放序列
     /// </summary>
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.Button]
-#endif
+    #endif
     public void Sequence_Play(int a)
     {
         currentXulieIndex = a;
@@ -287,9 +285,9 @@ public class PlaySequence : MonoBehaviour
 
     private float timer = 0f; // 用于计时的变量
 
-#if ODIN_INSPECTOR
+    #if ODIN_INSPECTOR
     [Sirenix.OdinInspector.Button("序列Owner 防报空")]
-#endif
+    #endif
     public void Owner()
     {
         foreach (var actionXuly in _xulies)
@@ -329,10 +327,10 @@ public class PlaySequence : MonoBehaviour
 
         if (!Application.isPlaying)
         {
-#if UNITY_EDITOR
+            #if UNITY_EDITOR
             Save();
-
-#endif
+            UnityEditor.EditorUtility.SetDirty(transform);
+            #endif
         }
     }
 
@@ -353,7 +351,6 @@ public class PlaySequence : MonoBehaviour
 
 
         currentXulie.Check();
-
 
 
         if (currentXulie._playS == PlayS.播放)
@@ -514,11 +511,11 @@ public class PlaySequence : MonoBehaviour
     //}
     public void Save()
     {
-#if UNITY_EDITOR
+        #if UNITY_EDITOR
         EditorUtility.SetDirty(this);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
         // Debug.Log("保存成功");
-#endif
+        #endif
     }
 }

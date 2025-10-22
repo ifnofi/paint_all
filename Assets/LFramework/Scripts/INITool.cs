@@ -6,7 +6,6 @@ public static class IniTool
 {
     private static readonly Dictionary<string, Ini> IniDic = new Dictionary<string, Ini>();
 
-
     public static string GetValue(string title, string key, string path, string def = "")
     {
         if (IniDic.TryGetValue(path, out var value))
@@ -22,7 +21,6 @@ public static class IniTool
             return ininew.GetValue(title, key, def);
         }
     }
-
 
     internal static Dictionary<string, string> GetValueGroup(string title, string path)
     {
@@ -56,7 +54,6 @@ public static class IniTool
         }
     }
 
-
     public static void SetValue(string title, string key, string value, string path)
     {
         if (IniDic.TryGetValue(path, out var value1))
@@ -74,7 +71,6 @@ public static class IniTool
 
         IniDic[path].Save();
     }
-
 
     internal static void SetValue(string title, Dictionary<string, string> keyGroup, string path)
     {
@@ -118,7 +114,6 @@ public static class IniTool
         IniDic[path].Save();
     }
 
-
     internal static List<string> GetTitles(string path)
     {
         if (IniDic.TryGetValue(path, out var value))
@@ -149,7 +144,6 @@ public static class IniTool
         IniDic[path].Save();
     }
 }
-
 
 public class Ini
 {
@@ -205,9 +199,10 @@ public class Ini
                 else if (line.Contains("="))
                 {
                     // 解析键值对
-                    string[] parts = line.Split('=');
+                    string[] parts = line.Split(new char[] { '=' }, 2);
                     string key = parts[0].Trim();
                     string value = parts[1].Trim();
+
                     sectionData[key] = value;
                 }
             }
@@ -244,7 +239,6 @@ public class Ini
         Save();
         return def;
     }
-
 
     /// <summary>
     /// 获得当前 title 的所有 key 的名字集合

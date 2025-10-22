@@ -1,3 +1,7 @@
 [Reporter]
 enable=1
 show=0
+
+[WebSocket]
+URL=ws://120.26.8.184:10110/meeting_websocket/ID=YHDFHZ001
+
