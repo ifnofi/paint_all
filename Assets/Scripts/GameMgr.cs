@@ -96,11 +96,18 @@ public class GameMgr : MonoSingleton<GameMgr>
         }
     }
 
+    public bool IsPlaying;
+
     public void CharacterMoveStart()
     {
+        DualScreenControl.Instance.HideAll();
+        IsPlaying = true;
         CharacterMoveStop();
         var sequence = StoneControl.Instance.Play(RoleBegin);
-        sequence.Play();
+        sequence.OnComplete(() =>
+        {
+            IsPlaying = false;
+        }).Play();
     }
 
     public void RoleBegin()
@@ -133,6 +140,7 @@ public class GameMgr : MonoSingleton<GameMgr>
 
         Time.timeScale = 1;
         BoysInit();
+        IsPlaying = false;
     }
 
     public void CharacterMovePause()

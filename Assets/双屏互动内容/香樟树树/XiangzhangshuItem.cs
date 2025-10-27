@@ -1,3 +1,4 @@
+using System;
 using LFramework;
 using TMPro;
 using UnityEngine;
@@ -5,10 +6,15 @@ using UnityEngine;
 public class XiangzhangshuItem : MonoBehaviour
 {
     public Transform target;
-
+    public CanvasGroup canvasGroup;
     public bool canMove;
 
     public float speed = 1;
+
+    private void Awake()
+    {
+        canvasGroup = GetComponent<CanvasGroup>();
+    }
 
     private void Update()
     {
@@ -31,6 +37,8 @@ public class XiangzhangshuItem : MonoBehaviour
     public void Init(RectTransform randomOne)
     {
         randomOne.Hide();
+        randomOne.GetOrAddComponent<CanvasGroup>().alpha = 1;
+        randomOne.GetComponentInChildren<TMP_Text>().text = GetComponentInChildren<TMP_Text>().text;
         target = randomOne;
         canMove = false;
     }
