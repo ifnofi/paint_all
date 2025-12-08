@@ -16,7 +16,6 @@ public enum MoveState
 public class GameMgr : MonoSingleton<GameMgr>
 {
     public TCPServer tcpServer;
-    public List<BoyController> BoyControllers = new List<BoyController>();
     public List<BaseController> BaseControllers = new List<BaseController>();
     private int boyIndex = 0;
     public Button startBtn;
@@ -83,11 +82,7 @@ public class GameMgr : MonoSingleton<GameMgr>
 
     private void BoysInit()
     {
-        foreach (var boy in BoyControllers)
-        {
-            boy.Init();
-            boy.Hide();
-        }
+        
 
         foreach (var baseController in BaseControllers)
         {
@@ -151,13 +146,11 @@ public class GameMgr : MonoSingleton<GameMgr>
         }
 
         Time.timeScale = 0;
-        // BoyControllers[boyIndex].Pause();
     }
 
     public void CharacterMoveUnPause()
     {
         Time.timeScale = 1;
-        // BoyControllers[boyIndex].UnPause();
         foreach (var audioSource in audioSources)
         {
             audioSource.UnPause();
@@ -167,7 +160,6 @@ public class GameMgr : MonoSingleton<GameMgr>
     public List<AudioSource> audioSources = new List<AudioSource>();
     private Coroutine characterMoveCoroutine;
 
-    public bool useOld = true;
 
     private IEnumerator CharacterMove()
     {
@@ -176,23 +168,7 @@ public class GameMgr : MonoSingleton<GameMgr>
         boyIndex = 0;
 
         var doing = false;
-        if (useOld)
-        {
-            while (boyIndex < BoyControllers.Count)
-            {
-                doing = true;
-                BoyControllers[boyIndex].Show();
-                BoyControllers[boyIndex].Play(() =>
-                {
-                    BoyControllers[boyIndex].Hide();
-                    Debug.Log($"播放第{boyIndex}个主角动画");
-                    boyIndex++;
-                    doing = false;
-                });
-                yield return new WaitUntil(() => !doing);
-            }
-        }
-        else
+       
         {
             while (boyIndex < BaseControllers.Count)
             {

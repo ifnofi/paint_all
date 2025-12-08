@@ -43,9 +43,13 @@ public class BoyController : MonoBehaviour
 
     public void Init()
     {
-        boyAnimator.transform.GetComponent<RectTransform>().localPosition = pathPoints[0].localPosition;
-        boyAnimator.transform.GetComponent<RectTransform>().localRotation = pathPoints[0].localRotation;
-        boyAnimator.transform.GetComponent<RectTransform>().localScale = pathPoints[0].localScale;
+        print(name);
+        boyAnimator.transform.GetComponent<RectTransform>().localPosition =
+            pathPoints[0].localPosition;
+        boyAnimator.transform.GetComponent<RectTransform>().localRotation = 
+            pathPoints[0].localRotation;
+        boyAnimator.transform.GetComponent<RectTransform>().localScale =
+            pathPoints[0].localScale;
         boyAnimator.transform.GetComponent<CanvasGroup>().alpha = 0;
         audioListener.enabled = false;
         boxCollider.enabled = false;

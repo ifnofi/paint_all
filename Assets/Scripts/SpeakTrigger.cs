@@ -32,34 +32,7 @@ public class SpeakTrigger : MonoBehaviour
         print("Trigger Entered" + name);
         if (other.CompareTag("Player"))
         {
-            if (GameMgr.Instance.useOld)
-            {
-                var player = other.GetComponentInParent<BoyController>();
-                if (player != null)
-                {
-                    onTriggerEnterEvent.Invoke();
-
-                    switch (triggerType)
-                    {
-                        case TriggerType.Speak:
-                            player.Speak(index);
-                            break;
-                        case TriggerType.StopPoint:
-                            player.ArrivePoint();
-                            break;
-                        case TriggerType.AddSpeed:
-                            player.AddSpeed(index);
-                            break;
-                        case TriggerType.ReduceSpeed:
-                            player.ReduceSpeed(index);
-                            break;
-                        case TriggerType.StopButWaitTime:
-                            player.StopWaitTime(index);
-                            break;
-                    }
-                }
-            }
-            else
+           
             {
                 var player2 = other.GetComponentInParent<BaseController>();
                 if (player2 != null)

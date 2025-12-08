@@ -38,6 +38,7 @@ public class PeopleController : BaseController
     {
         TimeController.Kill(GetInstanceID() + "Speak");
         tempIsSpeakOver = false;
+        print(audioClips.Count + $"--{name}--" + index);
         audioSource.clip = audioClips[index];
         audioSource.Play();
         TimeController.Call(audioSource.clip.length,
