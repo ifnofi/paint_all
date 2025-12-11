@@ -12,14 +12,25 @@ public class ShowUIHelper : MonoBehaviour
         myToggleBtn = GetComponent<MyToggleBtn>();
     }
 
+    private IActionController i;
+
     public void ShowUI()
     {
-        ActionKit.Sequence().Callback((() =>
+        print("show ui " + name);
+        if (i != null)
         {
-            myToggleBtn.Click();
-        })).Delay(delayTime).Callback((() =>
-        {
-            myToggleBtn.Click();
-        })).Start(this);
+            i.Deinit();
+        }
+
+        i = ActionKit.Sequence()
+           .Callback((() =>
+            {
+                myToggleBtn.Choose();
+            }))
+           .Delay(delayTime, (() =>
+            {
+                myToggleBtn.UnChoose();
+            }))
+           .Start(this);
     }
 }
