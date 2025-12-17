@@ -77,6 +77,10 @@ public class BaseController : MonoBehaviour
     {
     }
 
+    public virtual void HideReset()
+    {
+        this.Hide();
+    }
     public float moveUnit = 10f;
     public float fadeOutTime = 1f;
 

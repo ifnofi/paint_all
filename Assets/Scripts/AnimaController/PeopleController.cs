@@ -23,6 +23,7 @@ public class PeopleController : BaseController
         sequence.Pause();
         boyAnimator.Play("Talk_Hand", 0);
     }
+
     public override void StopButWaitTimePlayAnim(int waitTime)
     {
         Talk1();
@@ -86,6 +87,12 @@ public class PeopleController : BaseController
         }
     }
 
+    public override void HideReset()
+    {
+        base.HideReset();
+        boyAnimator.transform.DOMove(pathPoints[0].position, 0).SetEase(Ease.Linear);
+    }
+
     public override void Play(Action callback = null)
     {
         TimeController.Kill(GetInstanceID() + "StopWaitTime");
@@ -106,8 +113,9 @@ public class PeopleController : BaseController
 
         tempIsArrivePoint = false;
         sequence = DOTween.Sequence();
+        boxCollider.enabled = false;
+        boyAnimator.transform.DOMove(pathPoints[0].position, 0).SetEase(Ease.Linear);
         sequence.Append(canvasGroup.DOFade(0, 0).SetEase(Ease.Linear));
-        sequence.Join(boyAnimator.transform.DOMove(pathPoints[0].position, 0).SetEase(Ease.Linear));
         if (startPlayHello)
         {
             sequence.AppendCallback(() =>
@@ -141,12 +149,12 @@ public class PeopleController : BaseController
         }
         else
         {
-            boxCollider.enabled = true;
             canvasGroup.DOFade(1, 0.5f).SetEase(Ease.Linear);
             if (!boyAnimator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
             {
                 boyAnimator.Play("Walk", 0);
             }
+
             // sequence.AppendCallback(() =>
             // {
             //     boyAnimator.Play("SayHello", 0);
@@ -160,8 +168,12 @@ public class PeopleController : BaseController
             //         boyAnimator.Play("Walk", 0);
             //     }
             // });
-
+            sequence.AppendCallback(() =>
+            {
+                boxCollider.enabled = true;
+            });
             sequence.Join(boyAnimator.transform.DOPath(GetPathArray(), moveUnit, PathType.CatmullRom).SetEase(Ease.Linear));
+
             sequence.Join(canvasGroup.DOFade(0, 1).SetEase(Ease.Linear).SetDelay(moveUnit - 1f));
             sequence.OnComplete(() =>
             {

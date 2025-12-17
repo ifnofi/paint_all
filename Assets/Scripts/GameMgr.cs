@@ -176,7 +176,7 @@ public class GameMgr : MonoSingleton<GameMgr>
                 BaseControllers[boyIndex].Show();
                 BaseControllers[boyIndex].Play(() =>
                 {
-                    BaseControllers[boyIndex].Hide();
+                    BaseControllers[boyIndex].HideReset();
                     Debug.Log($"播放第{boyIndex}个主角动画");
                     boyIndex++;
                     doing = false;

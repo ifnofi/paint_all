@@ -39,13 +39,13 @@ public class StoneControl : MonoSingleton<StoneControl>
         stone.transform.position = targetPositions[0];
         stone.transform.GetChild(0).GetChild(1).Show();
 
-        sequence.Append(stone.transform.DOScale(Vector3.one, 1f).SetEase(Ease.Linear));
+        sequence.Append(stone.transform.DOScale(Vector3.one, .5f).SetEase(Ease.Linear));
         sequence.AppendCallback(() =>
         {
             stone.Play(true);
             light.Stop(true);
         });
-        sequence.AppendInterval(3f);
+        sequence.AppendInterval(1f);
         sequence.AppendCallback(() =>
         {
             stone.transform.GetChild(0).GetChild(1).Hide();
