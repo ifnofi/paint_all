@@ -1,12 +1,14 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
+using LFramework;
 
 public static class IniTool
 {
     private static readonly Dictionary<string, Ini> IniDic = new Dictionary<string, Ini>();
 
-    public static string GetValue(string title, string key, string path, string def = "")
+    public static string GetValue(string title, string key, string path, string def)
     {
         if (IniDic.TryGetValue(path, out var value))
         {
@@ -20,6 +22,57 @@ public static class IniTool
 
             return ininew.GetValue(title, key, def);
         }
+    }
+
+    public static string GetValue(string title, string key, string path, object def = null)
+    {
+        return GetValue(title, key, path, def?.ToString() ?? string.Empty);
+    }
+
+    public static int GetValue(string title, string key, string path, int def)
+    {
+        return GetValue(title, key, path, def.ToString()).ToInt();
+    }
+
+    public static float GetValue(string title, string key, string path, float def)
+    {
+        return GetValue(title, key, path, def.ToString(CultureInfo.InvariantCulture)).ToFloat();
+    }
+
+    /// <summary>
+    /// 获取默认Config.txt配置文件中的值
+    /// </summary>
+    /// <param name="title"></param>
+    /// <param name="key"></param>
+    /// <param name="def"></param>
+    /// <returns></returns>
+    public static float GetConfigValue(string title, string key, float def)
+    {
+        return GetValue(title, key, PathTool.ConfigPath, def);
+    }
+
+    /// <summary>
+    /// 获取默认Config.txt配置文件中的值
+    /// </summary>
+    /// <param name="title"></param>
+    /// <param name="key"></param>
+    /// <param name="def"></param>
+    /// <returns></returns>
+    public static int GetConfigValue(string title, string key, int def)
+    {
+        return GetValue(title, key, PathTool.ConfigPath, def);
+    }
+
+    /// <summary>
+    ///  获取默认Config.txt配置文件中的值
+    /// </summary>
+    /// <param name="title"></param>
+    /// <param name="key"></param>
+    /// <param name="def"></param>
+    /// <returns></returns>
+    public static string GetConfigValue(string title, string key, string def)
+    {
+        return GetValue(title, key, PathTool.ConfigPath, def);
     }
 
     internal static Dictionary<string, string> GetValueGroup(string title, string path)
@@ -199,10 +252,9 @@ public class Ini
                 else if (line.Contains("="))
                 {
                     // 解析键值对
-                    string[] parts = line.Split(new char[] { '=' }, 2);
+                    string[] parts = line.Split('=');
                     string key = parts[0].Trim();
                     string value = parts[1].Trim();
-
                     sectionData[key] = value;
                 }
             }
