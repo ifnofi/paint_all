@@ -23,9 +23,9 @@ public class WebSocketMgr : MonoSingleton<WebSocketMgr>
     private readonly Dictionary<string, List<Action<string>>> _jsonHandlers = new Dictionary<string, List<Action<string>>>();
 
     // 重连配置
-    public int MaxReconnectAttempts = 8;
-    public int BaseReconnectDelayMs = 1000; // 基础延迟
-    public int MaxReconnectDelayMs = 30000; // 最大延迟
+    private int MaxReconnectAttempts = 10;
+    private int BaseReconnectDelayMs = 5000; // 基础延迟
+    private int MaxReconnectDelayMs = 30000; // 最大延迟
 
     // 心跳（可选）
     public int HeartbeatIntervalSeconds = 20;
@@ -110,6 +110,10 @@ public class WebSocketMgr : MonoSingleton<WebSocketMgr>
     {
         _url = "ws://120.26.8.184:10110/meeting_websocket/ID=YHDFHZ001"; // 默认 URL，可根据需要修改
         _url = IniTool.GetValue("WebSocket", "URL", PathTool.ConfigPath, _url);
+        MaxReconnectAttempts = IniTool.GetConfigValue("WebSocket", "每次最大重连次数", MaxReconnectAttempts);
+        BaseReconnectDelayMs = IniTool.GetConfigValue("WebSocket", "每次重连基础延迟毫秒数", BaseReconnectDelayMs);
+        MaxReconnectDelayMs = IniTool.GetConfigValue("WebSocket", "每次重连最大延迟毫秒数", MaxReconnectDelayMs);
+        HeartbeatIntervalSeconds = IniTool.GetConfigValue("WebSocket", "心跳间隔秒数", HeartbeatIntervalSeconds);
         Connect(_url);
     }
 
