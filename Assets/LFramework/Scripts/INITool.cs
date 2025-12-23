@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using LFramework;
+using UnityEngine;
 
 public static class IniTool
 {
     private static readonly Dictionary<string, Ini> IniDic = new Dictionary<string, Ini>();
+
+    #region 基础方法
 
     public static string GetValue(string title, string key, string path, string def)
     {
@@ -24,9 +27,20 @@ public static class IniTool
         }
     }
 
-    public static string GetValue(string title, string key, string path, object def = null)
+    public static string GetValue(string title, string key, string path, object def)
     {
-        return GetValue(title, key, path, def?.ToString() ?? string.Empty);
+        if (IniDic.TryGetValue(path, out var value))
+        {
+            return value.GetValue(title, key, def.ToString());
+        }
+        else
+        {
+            var ininew = new Ini(path);
+
+            IniDic.Add(path, ininew);
+
+            return ininew.GetValue(title, key, def.ToString());
+        }
     }
 
     public static int GetValue(string title, string key, string path, int def)
@@ -39,40 +53,23 @@ public static class IniTool
         return GetValue(title, key, path, def.ToString(CultureInfo.InvariantCulture)).ToFloat();
     }
 
-    /// <summary>
-    /// 获取默认Config.txt配置文件中的值
-    /// </summary>
-    /// <param name="title"></param>
-    /// <param name="key"></param>
-    /// <param name="def"></param>
-    /// <returns></returns>
-    public static float GetConfigValue(string title, string key, float def)
+    public static bool GetValue(string title, string key, string path, bool def)
     {
-        return GetValue(title, key, PathTool.ConfigPath, def);
+        return GetValue(title, key, path, def.ToString()).ToBool();
     }
 
-    /// <summary>
-    /// 获取默认Config.txt配置文件中的值
-    /// </summary>
-    /// <param name="title"></param>
-    /// <param name="key"></param>
-    /// <param name="def"></param>
-    /// <returns></returns>
-    public static int GetConfigValue(string title, string key, int def)
+    private static string Get(string title, string key, string path, string def)
     {
-        return GetValue(title, key, PathTool.ConfigPath, def);
-    }
-
-    /// <summary>
-    ///  获取默认Config.txt配置文件中的值
-    /// </summary>
-    /// <param name="title"></param>
-    /// <param name="key"></param>
-    /// <param name="def"></param>
-    /// <returns></returns>
-    public static string GetConfigValue(string title, string key, string def)
-    {
-        return GetValue(title, key, PathTool.ConfigPath, def);
+        if (IniDic.TryGetValue(path, out var ini))
+        {
+            return ini.GetValue(title, key, def);
+        }
+        else
+        {
+            var ininew = new Ini(path);
+            IniDic.Add(path, ininew);
+            return ininew.GetValue(title, key, def);
+        }
     }
 
     internal static Dictionary<string, string> GetValueGroup(string title, string path)
@@ -107,7 +104,40 @@ public static class IniTool
         }
     }
 
-    public static void SetValue(string title, string key, string value, string path)
+    internal static Dictionary<string, string> GetValueGroup(string title)
+    {
+        string path = PathTool.ConfigPath;
+        var group = new Dictionary<string, string>();
+
+        if (IniDic.ContainsKey(path))
+        {
+            var keys = IniDic[path].GetKeys(title);
+
+            foreach (var k in keys)
+            {
+                group.Add(k, IniDic[path].GetValue(title, k));
+            }
+
+            return group;
+        }
+        else
+        {
+            var iniNew = new Ini(path);
+
+            IniDic.Add(path, iniNew);
+
+            var keys = IniDic[path].GetKeys(title);
+
+            foreach (var k in keys)
+            {
+                group.Add(k, IniDic[path].GetValue(title, k));
+            }
+
+            return group;
+        }
+    }
+
+    public static void Set(string title, string key, string value, string path)
     {
         if (IniDic.TryGetValue(path, out var value1))
         {
@@ -195,6 +225,35 @@ public static class IniTool
         }
 
         IniDic[path].Save();
+    }
+
+    #endregion
+
+    /// <summary>
+    /// 获取默认Config.txt配置文件中的值
+    /// </summary>
+    /// <param name="title"></param>
+    /// <param name="key"></param>
+    /// <param name="def"></param>
+    /// <returns></returns>
+    public static T GetConfigValue<T>(string title, string key, T def) where T : IConvertible
+    {
+        return (T)Convert.ChangeType(Get(title, key, PathTool.ConfigPath, def.ToString()), typeof(T));
+    }
+
+    public static T GetConfigValue<T>(this T def, string title, string key) where T : IConvertible
+    {
+        return (T)Convert.ChangeType(Get(title, key, PathTool.ConfigPath, def.ToString()), typeof(T));
+    }
+
+    public static void SetValue<T>(this T value, string title, string key, string path)
+    {
+        Set(title, key, value.ToString(), path);
+    }
+
+    public static void SetConfigValue<T>(this T value, string title, string key)
+    {
+        Set(title, key, value.ToString(), PathTool.ConfigPath);
     }
 }
 

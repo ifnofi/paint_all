@@ -19,10 +19,9 @@ namespace LFramework
             catch (Exception e)
             {
                 Debug.Log("error:" + e.Message);
-                return -1;
+                return 0;
             }
         }
-
 
         /// <summary>
         /// str 转 float 
@@ -38,7 +37,7 @@ namespace LFramework
             catch (Exception e)
             {
                 Debug.Log("error:" + e.Message);
-                return -1;
+                return 0;
             }
         }
 
@@ -56,7 +55,7 @@ namespace LFramework
             catch (Exception e)
             {
                 Debug.Log("error:" + e.Message);
-                return -1;
+                return 0;
             }
         }
 
@@ -69,17 +68,7 @@ namespace LFramework
         {
             try
             {
-                return str == "1" ||
-                    str == "true" ||
-                    str == "True" ||
-                    str == "TRUE" ||
-                    str == "yes" ||
-                    str == "Yes" ||
-                    str == "YES" ||
-                    str == "on" ||
-                    str == "On" ||
-                    str == "ON" ||
-                    str == "是";
+                return str == "1" || str == "true" || str == "True" || str == "TRUE" || str == "yes" || str == "Yes" || str == "YES" || str == "on" || str == "On" || str == "ON" || str == "是";
             }
             catch (Exception e)
             {
@@ -87,7 +76,6 @@ namespace LFramework
                 return false;
             }
         }
-
 
         /// <summary>
         /// str 转 int
@@ -103,7 +91,7 @@ namespace LFramework
             catch (Exception e)
             {
                 Debug.Log("error:" + e.Message);
-                return -1;
+                return 0;
             }
         }
 
@@ -121,7 +109,7 @@ namespace LFramework
             catch (Exception e)
             {
                 Debug.Log("error:" + e.Message);
-                return -1;
+                return 0;
             }
         }
     }
