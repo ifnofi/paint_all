@@ -310,10 +310,8 @@ public class Ini
                 }
                 else if (line.Contains("="))
                 {
-                    // 解析键值对
-                    string[] parts = line.Split('=');
-                    string key = parts[0].Trim();
-                    string value = parts[1].Trim();
+                    var key = line.Substring(0, line.IndexOf("=", StringComparison.Ordinal));
+                    var value = line.Substring(line.IndexOf("=", StringComparison.Ordinal) + 1);
                     sectionData[key] = value;
                 }
             }
