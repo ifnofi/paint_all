@@ -173,7 +173,7 @@ public class GameMgr : MonoSingleton<GameMgr>
             while (boyIndex < BaseControllers.Count)
             {
                 doing = true;
-                BaseControllers[boyIndex].Show();
+                // BaseControllers[boyIndex].Show();
                 BaseControllers[boyIndex].Play(() =>
                 {
                     BaseControllers[boyIndex].HideReset();

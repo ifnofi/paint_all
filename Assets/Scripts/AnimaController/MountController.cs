@@ -60,6 +60,7 @@ public class MountController : BaseController
     {
         TimeController.Kill(GetInstanceID() + "StopWaitTime");
         boxCollider.enabled = false;
+        this.Show();
         if (actionController != null)
         {
             actionController.Deinit();

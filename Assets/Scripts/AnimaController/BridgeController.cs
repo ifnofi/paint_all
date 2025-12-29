@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using LFramework;
 using UnityEngine;
 
 public class BridgeController : BaseController
@@ -48,7 +49,8 @@ public class BridgeController : BaseController
     public override void Play(Action callback = null)
     {
         TimeController.Kill(GetInstanceID() + "StopWaitTime");
-
+        boxCollider.enabled = false;
+        this.Show();
         if (stopWaitTimeTweener != null)
         {
             stopWaitTimeTweener.Kill(true);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using DG.Tweening.Core;
 using DG.Tweening.Plugins.Options;
+using LFramework;
 using UnityEngine;
 
 public class PeopleController : BaseController
@@ -96,7 +97,8 @@ public class PeopleController : BaseController
     public override void Play(Action callback = null)
     {
         TimeController.Kill(GetInstanceID() + "StopWaitTime");
-
+        boxCollider.enabled = false;
+        this.Show();
         if (stopWaitTimeTweener != null)
         {
             stopWaitTimeTweener.Kill(true);
@@ -113,7 +115,6 @@ public class PeopleController : BaseController
 
         tempIsArrivePoint = false;
         sequence = DOTween.Sequence();
-        boxCollider.enabled = false;
         boyAnimator.transform.DOMove(pathPoints[0].position, 0).SetEase(Ease.Linear);
         sequence.Append(canvasGroup.DOFade(0, 0).SetEase(Ease.Linear));
         if (startPlayHello)
