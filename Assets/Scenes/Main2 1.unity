@@ -377,6 +377,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &7321166
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &7856613
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +804,59 @@ MonoBehaviour:
     OverEvents:
       m_PersistentCalls:
         m_Calls: []
+--- !u!21 &18589536
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &19274591
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,6 +3442,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &78409834
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &80784942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5272,59 +5431,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116125692}
   m_CullTransparentMesh: 0
---- !u!21 &118128691
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &119639651
 GameObject:
   m_ObjectHideFlags: 0
@@ -7319,59 +7425,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!21 &156939241
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &157097558
 GameObject:
   m_ObjectHideFlags: 0
@@ -9234,59 +9287,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!21 &200346643
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!224 &200792281 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2819028023276277318, guid: 36349eab64de5a44ca904e71c5d348a1, type: 3}
@@ -9844,59 +9844,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1907.7009, y: -149.99998}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &224134410
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &224531266
 GameObject:
   m_ObjectHideFlags: 0
@@ -13525,59 +13472,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289884367}
   m_CullTransparentMesh: 1
---- !u!21 &290510780
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &294212930
 GameObject:
   m_ObjectHideFlags: 0
@@ -13787,59 +13681,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!21 &298574206
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &298676686
 GameObject:
   m_ObjectHideFlags: 0
@@ -14637,59 +14478,6 @@ RectTransform:
   m_AnchoredPosition: {x: 205.5, y: -468.2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &303182457
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &304321404
 GameObject:
   m_ObjectHideFlags: 0
@@ -14929,59 +14717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782816d2c817c6c4b9d321cd7518d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &308155427
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &308843601
 GameObject:
   m_ObjectHideFlags: 0
@@ -15058,59 +14793,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308843601}
   m_CullTransparentMesh: 0
---- !u!21 &310663575
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1001 &310852145
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15772,59 +15454,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324598588}
   m_CullTransparentMesh: 1
---- !u!21 &324901187
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &324925062
 GameObject:
   m_ObjectHideFlags: 0
@@ -17269,6 +16898,112 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356275264}
   m_CullTransparentMesh: 0
+--- !u!21 &357746575
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &358036670
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &358124994
 GameObject:
   m_ObjectHideFlags: 0
@@ -17460,42 +17195,7 @@ RectTransform:
   m_AnchoredPosition: {x: -2907.9805, y: -580.19995}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &362266913
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 362266914}
-  m_Layer: 5
-  m_Name: pos (2)
-  m_TagString: Untagged
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &362266914
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 362266913}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1240422714}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1260.5801, y: -42.3}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &362769095
+--- !u!21 &361614389
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -17548,6 +17248,41 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
+--- !u!1 &362266913
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 362266914}
+  m_Layer: 5
+  m_Name: pos (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &362266914
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362266913}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1240422714}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1260.5801, y: -42.3}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &363054620
 GameObject:
   m_ObjectHideFlags: 0
@@ -17952,6 +17687,59 @@ RectTransform:
   m_AnchoredPosition: {x: 1777.2598, y: -114}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &369223370
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &371948920
 GameObject:
   m_ObjectHideFlags: 0
@@ -18049,6 +17837,59 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!21 &372959049
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &373992017
 GameObject:
   m_ObjectHideFlags: 0
@@ -20535,59 +20376,6 @@ RectTransform:
   m_AnchoredPosition: {x: 4187.42, y: -777.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &406087977
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &407786221
 GameObject:
   m_ObjectHideFlags: 0
@@ -21522,59 +21310,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 417724026}
   m_CullTransparentMesh: 0
---- !u!21 &418069370
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &420827195
 GameObject:
   m_ObjectHideFlags: 0
@@ -22653,59 +22388,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1774630434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &438176732
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &438809636
 GameObject:
   m_ObjectHideFlags: 0
@@ -22957,59 +22639,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!21 &443175961
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &443543895
 GameObject:
   m_ObjectHideFlags: 0
@@ -23492,59 +23121,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451685775}
   m_CullTransparentMesh: 1
---- !u!21 &452631314
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &453356993
 GameObject:
   m_ObjectHideFlags: 0
@@ -23824,6 +23400,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 453358767}
   m_CullTransparentMesh: 0
+--- !u!21 &458593074
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &459769594
 GameObject:
   m_ObjectHideFlags: 0
@@ -24535,6 +24164,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &473297541
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &475645115
 GameObject:
   m_ObjectHideFlags: 0
@@ -25458,7 +25140,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 615, y: 326}
+  m_AnchoredPosition: {x: 675.8, y: 322.6}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &495743102
@@ -25668,6 +25350,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496748268}
   m_CullTransparentMesh: 0
+--- !u!21 &498228513
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &498857293
 GameObject:
   m_ObjectHideFlags: 0
@@ -25819,7 +25554,7 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!21 &501336650
+--- !u!21 &501213816
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -26804,6 +26539,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 513796482}
   m_CullTransparentMesh: 1
+--- !u!21 &514255268
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &518515011
 GameObject:
   m_ObjectHideFlags: 0
@@ -29665,59 +29453,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
---- !u!21 &560805237
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &561030649
 GameObject:
   m_ObjectHideFlags: 0
@@ -31048,6 +30783,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589419500}
   m_CullTransparentMesh: 1
+--- !u!21 &589503937
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &589986926
 GameObject:
   m_ObjectHideFlags: 0
@@ -35809,6 +35597,59 @@ RectTransform:
   m_AnchoredPosition: {x: 244.49997, y: -669.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &661730423
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &662401811
 GameObject:
   m_ObjectHideFlags: 0
@@ -36418,7 +36259,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672620380}
   m_CullTransparentMesh: 1
---- !u!21 &672907336
+--- !u!1 &678709552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 678709553}
+  m_Layer: 5
+  m_Name: pos (3)_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &678709553
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678709552}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1967150680}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1050, y: 190}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &678934078
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -36471,41 +36347,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1 &678709552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 678709553}
-  m_Layer: 5
-  m_Name: pos (3)_02
-  m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &678709553
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 678709552}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1967150680}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1050, y: 190}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &680060710
 GameObject:
   m_ObjectHideFlags: 0
@@ -36594,6 +36435,59 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!21 &680383889
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &682568118
 GameObject:
   m_ObjectHideFlags: 0
@@ -37059,59 +36953,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1239888343}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &703549268
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &706018310
 GameObject:
   m_ObjectHideFlags: 0
@@ -37188,6 +37029,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 706018310}
   m_CullTransparentMesh: 1
+--- !u!21 &706260394
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &706518668
 GameObject:
   m_ObjectHideFlags: 0
@@ -40098,7 +39992,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!21 &760881458
+--- !u!21 &759966260
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -40558,59 +40452,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 761549948}
   m_CullTransparentMesh: 0
---- !u!21 &763559709
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &763979830
 GameObject:
   m_ObjectHideFlags: 0
@@ -40914,59 +40755,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!21 &771875502
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &772978815
 GameObject:
   m_ObjectHideFlags: 0
@@ -41724,6 +41512,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 803390914}
   m_CullTransparentMesh: 0
+--- !u!21 &803728487
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &805775195
 GameObject:
   m_ObjectHideFlags: 0
@@ -43694,6 +43535,59 @@ RectTransform:
   m_AnchoredPosition: {x: -2720, y: -54}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &859584609
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1001 &860282320
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44166,59 +44060,6 @@ MonoBehaviour:
     OverEvents:
       m_PersistentCalls:
         m_Calls: []
---- !u!21 &866629127
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &869363167
 GameObject:
   m_ObjectHideFlags: 0
@@ -44662,59 +44503,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874070978}
   m_CullTransparentMesh: 1
---- !u!21 &880703165
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &881245196
 GameObject:
   m_ObjectHideFlags: 0
@@ -45291,6 +45079,59 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!21 &893294862
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &893479947
 GameObject:
   m_ObjectHideFlags: 0
@@ -47061,6 +46902,59 @@ RectTransform:
   m_AnchoredPosition: {x: 277, y: -578}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &916203188
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &919666625
 GameObject:
   m_ObjectHideFlags: 0
@@ -47615,6 +47509,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 924522247}
   m_CullTransparentMesh: 1
+--- !u!21 &925697230
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &927720141
 GameObject:
   m_ObjectHideFlags: 0
@@ -47725,6 +47672,59 @@ RectTransform:
   m_AnchoredPosition: {x: -159.97998, y: -667.1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &929142229
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &929766079
 GameObject:
   m_ObjectHideFlags: 0
@@ -48480,6 +48480,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782816d2c817c6c4b9d321cd7518d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!21 &947824258
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!21 &948650070
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &949760749
 GameObject:
   m_ObjectHideFlags: 0
@@ -48788,59 +48894,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953461135}
   m_CullTransparentMesh: 1
---- !u!21 &955740922
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &956492236
 GameObject:
   m_ObjectHideFlags: 0
@@ -49422,6 +49475,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969493063}
   m_CullTransparentMesh: 0
+--- !u!21 &970970457
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &972056446
 GameObject:
   m_ObjectHideFlags: 0
@@ -50143,6 +50249,59 @@ RectTransform:
   m_AnchoredPosition: {x: -1345.8997, y: -751}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &988450855
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &988687212
 GameObject:
   m_ObjectHideFlags: 0
@@ -51139,59 +51298,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1302.98, y: -465.09998}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1010677268
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1012260486
 GameObject:
   m_ObjectHideFlags: 0
@@ -53855,6 +53961,59 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!21 &1067328914
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1067976844
 GameObject:
   m_ObjectHideFlags: 0
@@ -54055,59 +54214,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2675.42, y: -527}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1078134885
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1080463091
 GameObject:
   m_ObjectHideFlags: 0
@@ -54509,6 +54615,59 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3852369176189392675, guid: 1053788651abf2a469fe830f0d49b058, type: 3}
   m_PrefabInstance: {fileID: 1088077397}
   m_PrefabAsset: {fileID: 0}
+--- !u!21 &1093136689
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1093677782
 GameObject:
   m_ObjectHideFlags: 0
@@ -54544,6 +54703,59 @@ RectTransform:
   m_AnchoredPosition: {x: -1281.5, y: -773.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1095693609
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1096035653
 GameObject:
   m_ObjectHideFlags: 0
@@ -55295,59 +55507,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107930716}
   m_CullTransparentMesh: 1
---- !u!21 &1108750128
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1112084013
 GameObject:
   m_ObjectHideFlags: 0
@@ -56460,59 +56619,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132897095}
   m_CullTransparentMesh: 0
---- !u!21 &1135623608
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1135831786
 GameObject:
   m_ObjectHideFlags: 0
@@ -57936,6 +58042,59 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!21 &1159694027
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1160247662
 GameObject:
   m_ObjectHideFlags: 0
@@ -58468,7 +58627,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174151711}
   m_CullTransparentMesh: 1
---- !u!21 &1177258585
+--- !u!21 &1175711637
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -58826,6 +58985,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1182401347}
   m_CullTransparentMesh: 0
+--- !u!21 &1184017012
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1001 &1186445593
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59209,6 +59421,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191323184}
   m_CullTransparentMesh: 1
+--- !u!21 &1191948808
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1192578228
 GameObject:
   m_ObjectHideFlags: 0
@@ -59691,59 +59956,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782816d2c817c6c4b9d321cd7518d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &1203638971
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1204336119
 GameObject:
   m_ObjectHideFlags: 0
@@ -60216,59 +60428,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!21 &1216473631
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1216919011
 GameObject:
   m_ObjectHideFlags: 0
@@ -60464,7 +60623,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1219637401}
   m_CullTransparentMesh: 1
---- !u!21 &1221694129
+--- !u!21 &1224646520
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -62060,6 +62219,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1247402778}
   m_CullTransparentMesh: 1
+--- !u!21 &1249736770
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1253850124
 GameObject:
   m_ObjectHideFlags: 0
@@ -62460,59 +62672,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2205.2598, y: -74}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1260782415
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1264391889
 GameObject:
   m_ObjectHideFlags: 0
@@ -64000,6 +64159,59 @@ RectTransform:
   m_AnchoredPosition: {x: 1974, y: -460}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1286317461
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1289465139
 GameObject:
   m_ObjectHideFlags: 0
@@ -64882,6 +65094,59 @@ RectTransform:
   m_AnchoredPosition: {x: -2918, y: -135.2}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1313678013
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1318112579
 GameObject:
   m_ObjectHideFlags: 0
@@ -65708,59 +65973,6 @@ RectTransform:
   m_AnchoredPosition: {x: 3008.0195, y: -714.6}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1346683079
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1352442109
 GameObject:
   m_ObjectHideFlags: 0
@@ -66128,7 +66340,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1356408412}
   m_CullTransparentMesh: 1
---- !u!21 &1363489072
+--- !u!21 &1357185432
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -67388,59 +67600,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1393078117}
   m_CullTransparentMesh: 0
---- !u!21 &1394253382
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1001 &1394462178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68543,6 +68702,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1416084732}
   m_CullTransparentMesh: 1
+--- !u!21 &1416996805
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1417227431
 GameObject:
   m_ObjectHideFlags: 0
@@ -68917,59 +69129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delayTime: 2.5
---- !u!21 &1420131944
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1424820325
 GameObject:
   m_ObjectHideFlags: 0
@@ -69624,112 +69783,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430366086}
   m_CullTransparentMesh: 1
---- !u!21 &1431062415
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1431456682
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1434223990
 GameObject:
   m_ObjectHideFlags: 0
@@ -70034,59 +70087,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1449023683
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1452263402
 GameObject:
   m_ObjectHideFlags: 0
@@ -71447,6 +71447,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468087710}
   m_CullTransparentMesh: 0
+--- !u!21 &1468282942
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1469246313
 GameObject:
   m_ObjectHideFlags: 0
@@ -72685,6 +72738,59 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!21 &1494516276
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1494775257
 GameObject:
   m_ObjectHideFlags: 0
@@ -72978,59 +73084,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495227059}
   m_CullTransparentMesh: 0
---- !u!21 &1497735614
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1498142603
 GameObject:
   m_ObjectHideFlags: 0
@@ -73222,6 +73275,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514647009}
   m_CullTransparentMesh: 1
+--- !u!21 &1516839868
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1518117336
 GameObject:
   m_ObjectHideFlags: 0
@@ -78492,6 +78598,59 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!21 &1526966032
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1529477946
 GameObject:
   m_ObjectHideFlags: 0
@@ -79322,6 +79481,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1539530060}
   m_CullTransparentMesh: 1
+--- !u!21 &1540694619
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1545581878
 GameObject:
   m_ObjectHideFlags: 0
@@ -79669,59 +79881,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1561236872
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1561775630
 GameObject:
   m_ObjectHideFlags: 0
@@ -80472,6 +80631,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582018426}
   m_CullTransparentMesh: 1
+--- !u!21 &1583030556
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1588104128
 GameObject:
   m_ObjectHideFlags: 0
@@ -81245,7 +81457,43 @@ MonoBehaviour:
   move3Unit: 36
   move3RotateUnit: 36
   move3ScaleUnit: 36
---- !u!21 &1603579661
+--- !u!1 &1604581158
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604581159}
+  m_Layer: 5
+  m_Name: pos (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1604581159
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604581158}
+  m_LocalRotation: {x: -0, y: -0, z: -0.28953305, w: 0.95716804}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 520877830}
+  m_Father: {fileID: 156182060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.66}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3479.3008, y: -535.9}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1606252075
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -81298,42 +81546,6 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!1 &1604581158
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1604581159}
-  m_Layer: 5
-  m_Name: pos (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1604581159
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1604581158}
-  m_LocalRotation: {x: -0, y: -0, z: -0.28953305, w: 0.95716804}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 520877830}
-  m_Father: {fileID: 156182060}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -33.66}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3479.3008, y: -535.9}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1606807900
 GameObject:
   m_ObjectHideFlags: 0
@@ -81519,6 +81731,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616401562}
   m_CullTransparentMesh: 1
+--- !u!21 &1619000831
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1619048170
 GameObject:
   m_ObjectHideFlags: 0
@@ -81846,7 +82111,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622332317}
   m_CullTransparentMesh: 0
---- !u!21 &1627370328
+--- !u!21 &1623168278
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -81991,6 +82256,59 @@ MonoBehaviour:
   PlayOnStart: 0
   _image_list: []
   _xulies: []
+--- !u!21 &1628314534
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1628483386
 GameObject:
   m_ObjectHideFlags: 0
@@ -82230,7 +82548,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIMaterialModifier
   modifiedMaterial: {fileID: 757215011}
-  instanceID: 43062
+  instanceID: 43052
 --- !u!114 &1629629847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82527,59 +82845,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2720.1997, y: -464.8}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1636432675
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1637660534
 GameObject:
   m_ObjectHideFlags: 0
@@ -82801,59 +83066,6 @@ MonoBehaviour:
   onTriggerEnterEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!21 &1640357754
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1645382325
 GameObject:
   m_ObjectHideFlags: 0
@@ -83204,7 +83416,7 @@ RectTransform:
   m_AnchoredPosition: {x: -3717.1084, y: -226.7}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1649990368
+--- !u!21 &1650465823
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -83332,59 +83544,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650512029}
   m_CullTransparentMesh: 1
---- !u!21 &1653316753
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!21 &1654321693
 Material:
   serializedVersion: 8
@@ -83634,6 +83793,59 @@ RectTransform:
   m_AnchoredPosition: {x: -637, y: -1139}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1657442723
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1657704526
 GameObject:
   m_ObjectHideFlags: 0
@@ -83784,59 +83996,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659973233}
   m_CullTransparentMesh: 1
---- !u!21 &1662662289
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1662780321
 GameObject:
   m_ObjectHideFlags: 0
@@ -84464,59 +84623,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782816d2c817c6c4b9d321cd7518d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!21 &1675766604
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1676453885
 GameObject:
   m_ObjectHideFlags: 0
@@ -84991,59 +85097,6 @@ MonoBehaviour:
   PlayOnStart: 0
   _image_list: []
   _xulies: []
---- !u!21 &1685421082
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1687185650
 GameObject:
   m_ObjectHideFlags: 0
@@ -86815,7 +86868,7 @@ Transform:
   - {fileID: 493954713}
   m_Father: {fileID: 1620646539}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!21 &1711519979
+--- !u!21 &1712041432
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -86904,6 +86957,59 @@ RectTransform:
   m_AnchoredPosition: {x: 3029.2986, y: -329.30005}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1715072005
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1716362669
 GameObject:
   m_ObjectHideFlags: 0
@@ -87944,59 +88050,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5319011277820649225, guid: 9e875b5239b40b44381ac73575923397, type: 3}
   m_PrefabInstance: {fileID: 1725942464}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1727787605
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1728235097
 GameObject:
   m_ObjectHideFlags: 0
@@ -88372,6 +88425,59 @@ RectTransform:
   m_AnchoredPosition: {x: 3226.6997, y: -278.50006}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &1737303118
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1737925850
 GameObject:
   m_ObjectHideFlags: 0
@@ -88884,59 +88990,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1742782395}
   m_CullTransparentMesh: 1
---- !u!21 &1742832327
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1742950576
 GameObject:
   m_ObjectHideFlags: 0
@@ -89335,6 +89388,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748087949}
   m_CullTransparentMesh: 1
+--- !u!21 &1749504638
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1751395849
 GameObject:
   m_ObjectHideFlags: 0
@@ -90933,59 +91039,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1772952391
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1774630433
 GameObject:
   m_ObjectHideFlags: 0
@@ -93338,112 +93391,6 @@ MonoBehaviour:
     OverEvents:
       m_PersistentCalls:
         m_Calls: []
---- !u!21 &1813121353
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
---- !u!21 &1814453116
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1814684423
 GameObject:
   m_ObjectHideFlags: 0
@@ -93578,59 +93525,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814684423}
   m_CullTransparentMesh: 1
---- !u!21 &1814737568
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1819226947
 GameObject:
   m_ObjectHideFlags: 0
@@ -94874,7 +94768,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859485343}
   m_CullTransparentMesh: 0
---- !u!21 &1861857845
+--- !u!21 &1862355149
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -95533,59 +95427,6 @@ MonoBehaviour:
   move3Unit: 36
   move3RotateUnit: 36
   move3ScaleUnit: 36
---- !u!21 &1875215580
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1875732165
 GameObject:
   m_ObjectHideFlags: 0
@@ -95990,59 +95831,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880163318}
   m_CullTransparentMesh: 1
---- !u!21 &1880733928
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1001 &1881121799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96758,7 +96546,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1898260032}
   m_CullTransparentMesh: 0
---- !u!21 &1902772960
+--- !u!21 &1908142964
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -97012,59 +96800,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1914903761}
   m_CullTransparentMesh: 1
---- !u!21 &1916898821
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1917207037
 GameObject:
   m_ObjectHideFlags: 0
@@ -99235,6 +98970,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 782816d2c817c6c4b9d321cd7518d501, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!21 &1961528748
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &1964752922
 GameObject:
   m_ObjectHideFlags: 0
@@ -100028,59 +99816,6 @@ RectTransform:
   m_AnchoredPosition: {x: 2427.2598, y: -38}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &1979164115
-Material:
-  serializedVersion: 8
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Sprites-Alpha-Mask-WorldCoords modified
-  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
-  m_Parent: {fileID: 0}
-  m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords:
-  - ETC1_EXTERNAL_ALPHA
-  - _ENABLED_ON
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_LockedProperties: 
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _AlphaTex:
-        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Ints: []
-    m_Floats:
-    - _ClampBorder: 0.01
-    - _ClampHoriz: 0
-    - _ClampVert: 0
-    - _ColorMask: 15
-    - _Enabled: 1
-    - _IsThisText: 0
-    - _PixelSnap: 0
-    - _ScreenSpaceUI: 0
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseAlphaChannel: 1
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
-  m_BuildTextureStacks: []
-  m_AllowLocking: 1
 --- !u!1 &1979642915
 GameObject:
   m_ObjectHideFlags: 0
@@ -100918,6 +100653,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1774630434}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!21 &2002624385
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2004948493
 GameObject:
   m_ObjectHideFlags: 0
@@ -100953,6 +100741,59 @@ RectTransform:
   m_AnchoredPosition: {x: -575, y: -758.1}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!21 &2006523266
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2006620222
 GameObject:
   m_ObjectHideFlags: 0
@@ -102754,6 +102595,59 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!21 &2051915331
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2057226356
 GameObject:
   m_ObjectHideFlags: 0
@@ -104935,6 +104829,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098466937}
   m_CullTransparentMesh: 1
+--- !u!21 &2099160245
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2100372947
 GameObject:
   m_ObjectHideFlags: 0
@@ -106839,6 +106786,59 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!21 &2140805021
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Sprites-Alpha-Mask-WorldCoords modified
+  m_Shader: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - ETC1_EXTERNAL_ALPHA
+  - _ENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 2800000, guid: 82fc2557530798c40ae2c5b2f84eb716, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ClampBorder: 0.01
+    - _ClampHoriz: 0
+    - _ClampVert: 0
+    - _ColorMask: 15
+    - _Enabled: 1
+    - _IsThisText: 0
+    - _PixelSnap: 0
+    - _ScreenSpaceUI: 0
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseAlphaChannel: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
 --- !u!1 &2141665659
 GameObject:
   m_ObjectHideFlags: 0
